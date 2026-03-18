@@ -1,0 +1,41 @@
+---
+permalink: um-manage/overview-import-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, import, settings 
+summary: アラート、AutoSupport、およびディレクトリサービスなどの設定をあるストレージアレイから別のストレージアレイにインポートできます。 
+---
+= SANtricity Unified Managerでのストレージアレイ設定のインポートについて説明します
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+設定のインポート機能を使用すると、1つのアレイから複数のアレイに設定をインポートするバッチ処理を実行できます。この機能により、ネットワークの複数のアレイを設定する場合に時間を短縮できます。
+
+
+
+== どの設定をインポートできますか?
+
+アラート方法、AutoSupport設定、ディレクトリ サービス設定、ストレージ設定（ボリューム グループやプールなど）、およびシステム設定（自動ロード バランシングなど）をインポートできます。
+
+詳細については、以下を参照してください。
+
+* link:how-import-settings-works.html["設定のインポートの仕組み"]
+* link:requirements-for-replicating-storage-configurations.html["ストレージ構成のレプリケートに関する要件"]
+
+
+
+
+== バッチ インポートを実行するにはどうすればよいですか?
+
+ソースとして使用するストレージ アレイで、System Managerを開いて希望するオプションを設定します。その後、Unified Managerの[管理]ページに移動し、設定を1つ以上のアレイにインポートします。
+
+詳細については、以下を参照してください。
+
+* link:import-alert-settings.html["アラート設定のインポート"]
+* link:import-autosupport-settings.html["AutoSupport設定のインポート"]
+* link:import-directory-services-settings.html["ディレクトリ サービス設定のインポート"]
+* link:import-storage-configuration-settings.html["ストレージ構成のインポート"]
+* link:import-system-settings.html["システム設定のインポート"]
+

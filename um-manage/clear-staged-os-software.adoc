@@ -1,0 +1,28 @@
+---
+permalink: um-manage/clear-staged-os-software.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, clear, staged, os, software 
+summary: 保留中のバージョンがあとで誤ってアクティブ化されないように、ステージング済みのOSソフトウェアを削除することができます。ステージング済みOSソフトウェアを削除しても、ストレージ アレイで実行されている現在のバージョンには影響しません。 
+---
+= SANtricity Unified Manager でステージング済み OS ソフトウェアをクリアします
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+保留中のバージョンがあとで誤ってアクティブ化されないように、ステージング済みのOSソフトウェアを削除することができます。ステージング済みOSソフトウェアを削除しても、ストレージ アレイで実行されている現在のバージョンには影響しません。
+
+.手順
+. メイン画面から*管理*を選択し、次にmenu:Upgrade Center[Clear Staged OS Software]を選択します。
++
+[ステージング済みOSソフトウェアのクリア]ダイアログ ボックスが開き、保留中のソフトウェアまたはNVSRAMがあるストレージ アレイがすべて検出されて表示されます。
+
+. 必要に応じて、ストレージ システムのリストをフィルタまたはソートして、ソフトウェアがステージング済みのすべてのシステムを確認します。
+. 保留中のソフトウェアをクリアするストレージ システムのチェック ボックスを選択します。
+. * Clear * をクリックします。
++
+処理のステータスがダイアログ ボックスに表示されます。
+
+

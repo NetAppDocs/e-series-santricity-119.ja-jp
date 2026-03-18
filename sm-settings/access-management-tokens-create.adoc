@@ -1,0 +1,58 @@
+---
+permalink: sm-settings/access-management-tokens-create.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, create tokens 
+summary: アクセストークンを作成できます。これは、ユーザ名とパスワードの代わりにREST APIまたはコマンドラインインターフェイスで認証するために使用されます。 
+---
+= SANtricity System Managerでアクセストークンを作成する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アクセス トークンを作成して、ユーザ名とパスワードの代わりにREST APIまたはコマンドライン インターフェイス（CLI）で認証を行うことができます。
+
+
+NOTE: トークンにはパスワードがないため、慎重に管理する必要があります。
+
+.手順
+. メニューの「設定」→「アクセス管理」を選択します。
+. * Access Tokens * タブを選択します。
+. *View/Edit Access Token Settings*を選択します。ダイアログボックスで、*Enable access tokens*チェックボックスが選択されていることを確認します。*Save*をクリックしてダイアログボックスを閉じます。
+. *Create Access Token* を選択します。
+. ダイアログ ボックスで、トークンの有効期間を選択します。
++
+
+NOTE: トークンの有効期限が切れると、ユーザの認証は失敗します。
+
+. * Create * をクリックします。
+. ダイアログ ボックスで、以下のいずれかを選択します。
++
+** トークンテキストをクリップボードに保存するには、 * コピー * をクリックします。
+** *ダウンロード*をクリックして、トークンテキストをファイルに保存します。
++
+
+NOTE: トークンのテキストは必ず保存してください。ダイアログを閉じると、その後テキストを確認することはできません。
+
+
+
+. *閉じる* をクリックします。
+. 次の方法でトークンを使用します。
++
+** *REST API*：REST APIリクエストでトークンを使用するには、HTTPヘッダーをリクエストに追加します。例：
+`Authorization: Bearer _<access-token-value>_`
+** *セキュアCLI*：CLIでトークンを使用するには、コマンドラインにトークン値を追加するか、トークン値を含むファイルへのパスを使用します。例：
++
+*** コマンドライン上のトークン値： `-t _access-token-value_`
+*** トークン値を含むファイルへのパス： `-T _access-token-file_`
++
+
+NOTE: ユーザ名、パスワード、またはトークンが指定されていない場合、アクセス トークン値をコマンドラインで入力するよう求められます。
+
+
+
+
+
+

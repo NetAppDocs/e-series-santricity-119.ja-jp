@@ -1,0 +1,41 @@
+---
+permalink: sm-mirroring/delete-mirror-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, mirror, consistency, group, 
+summary: ローカル ストレージ アレイおよびリモート ストレージ アレイで不要になったミラー整合性グループを削除することができます。 
+---
+= SANtricity System Managerでミラー整合性グループを削除します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ローカル ストレージ アレイおよびリモート ストレージ アレイで不要になったミラー整合性グループを削除することができます。
+
+.開始する前に
+ミラー整合性グループからすべてのミラー ペアを削除する必要があります。
+
+.手順
+. メニュー：Storage[Asynchronous Mirroring]を選択します。
+. *Mirror Consistency Groups*タブを選択します。
++
+[ミラー整合性グループ]の表に、ストレージ アレイに関連付けられているすべてのミラー整合性グループが表示されます。
+
+. 削除するミラー整合性グループを選択し、メニュー：Uncommon Tasks[Delete]を選択します。
++
+確認のメッセージが表示されます。
+
+. ミラー整合性グループを削除するには、*Yes*を選択してください。
+
+
+.結果
+System Manager は以下の操作を実行します。
+
+* 最初にローカル ストレージ アレイから、続いてリモート ストレージ アレイからミラー整合性グループを削除します。
+* [ミラー整合性グループ]の表からミラー整合性グループを削除します。
+
+
+.終了後の操作
+ローカル ストレージ アレイからミラー整合性グループが削除されたあとに通信エラーが発生した場合、リモート ストレージ アレイからはミラー整合性グループが削除されずに残ってしまうことがあります。この場合は、リモート ストレージ アレイにアクセスして対応するミラー整合性グループを削除する必要があります。

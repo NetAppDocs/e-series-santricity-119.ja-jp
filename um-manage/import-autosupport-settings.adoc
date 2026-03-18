@@ -1,0 +1,49 @@
+---
+permalink: um-manage/import-autosupport-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, import, autosupport, settings 
+summary: ストレージ アレイから別のストレージ アレイにAutoSupport設定をインポートできます。この方法でバッチ処理すると、ネットワークの複数のアレイを設定する場合に時間を短縮できます。 
+---
+= SANtricity Unified ManagerでAutoSupport設定をインポートする
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージ アレイから別のストレージ アレイにAutoSupport設定をインポートできます。この方法でバッチ処理すると、ネットワークの複数のアレイを設定する場合に時間を短縮できます。
+
+.開始する前に
+* AutoSupportは、ソースとして使用するストレージアレイについて、System Managerで設定します（メニュー：サポート[サポートセンター]）。
+* 対象ストレージアレイの既存の構成は、System Manager（メニュー：Settings［System ＞ Save Storage Array Configuration］）にバックアップされます。
+
+
+.タスク概要
+インポートされる設定には、個別の機能（Basic AutoSupport、AutoSupport OnDemand、Remote Diagnostics）、メンテナンス期間、配信方法、およびディスパッチ スケジュールが含まれます。
+
+.手順
+. 「管理」ページから*設定のインポート*をクリックします。
++
+設定のインポート ウィザードが開きます。
+
+. 「設定の選択」ダイアログボックスで、*AutoSupport*を選択し、*次へ*をクリックします。
++
+ソース アレイを選択するためのダイアログ ボックスが表示されます。
+
+. 「ソースの選択」ダイアログボックスで、インポートする設定を含む配列を選択し、*次へ*をクリックします。
+. [ターゲットの選択]ダイアログ ボックスで、新しい設定をインポートするアレイを1つ以上選択します。
++
+[NOTE]
+====
+ファームウェアが8.50未満のストレージ アレイは選択できません。また、Unified Managerが通信できないアレイ（オフラインのアレイや、証明書、パスワード、ネットワークに問題があるアレイなど）はこのダイアログ ボックスに表示されません。
+
+====
+. *完了*をクリックします。
++
+[処理]ページにインポート処理の結果が表示されます。処理に失敗した場合は、その行をクリックすると詳細を確認できます。
+
+
+
+.結果
+ターゲット ストレージ アレイのAutoSupport設定がソース アレイと同じに設定されます。

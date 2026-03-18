@@ -1,0 +1,28 @@
+---
+permalink: sm-settings/delete-syslog-servers-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, syslog, servers, alerts, 
+summary: syslogサーバを削除してアラートの受信を中止することができます。 
+---
+= SANtricity System Managerでアラート用のsyslogサーバを削除
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+syslogサーバを削除してアラートの受信を中止することができます。
+
+.手順
+. メニューの「設定」→「アラート」を選択します。
+. *Syslog*タブを選択します。
+. syslogサーバアドレスを選択し、右上の*削除*をクリックします。
++
+「syslogサーバの削除の確認」ダイアログボックスが開きます。
+
+. 操作を確認し、*削除*をクリックします。
+
+
+.結果
+削除したサーバにイベント モニタからアラートが届かなくなります。

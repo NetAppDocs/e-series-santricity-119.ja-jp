@@ -1,0 +1,37 @@
+---
+permalink: sm-settings/configure-login-banner.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, login, banner, 
+summary: SANtricity System Managerでセッションを確立する前に、ユーザに表示されるログインバナーを作成できます。バナーには、注意喚起の通知と同意メッセージを含めることができます。 
+---
+= SANtricity System Managerでログインバナーを設定
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Managerでセッションを確立する前に、ユーザに表示されるログインバナーを作成できます。バナーには、注意喚起の通知と同意メッセージを含めることができます。
+
+.タスク概要
+作成したバナーは、ログイン画面の前にダイアログ ボックスに表示されます。
+
+.手順
+. メニュー：Settings[System]を選択します。
+. 「一般」セクションで、*Configure Login Banner* を選択します。
++
+ログインバナーの設定ダイアログボックスが開きます。
+
+. ログイン バナーに表示するテキストを入力します。
++
+[NOTE]
+====
+書式設定用のHTMLタグやその他のマークアップ タグは使用しないでください。
+
+====
+. *保存*をクリックします。
+
+
+.結果
+次回ユーザがSystem Managerにログインすると、そのテキストがダイアログボックスに表示されます。ユーザはログイン画面に進むために*OK*をクリックする必要があります。

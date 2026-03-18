@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/permissions-for-mapped-roles.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, permissions, mapped, roles, 
+summary: ストレージアレイに適用されるRBAC（ロールベースアクセス制御）機能には、1つ以上のロールがマッピングされた事前定義済みのユーザプロファイルが含まれます。各ロールには、SANtricity System Managerでタスクにアクセスするための権限が含まれています。 
+---
+= SANtricity System Managerでマッピングされたロールの権限について説明します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイに適用されるRBAC（ロールベースアクセス制御）機能には、1つ以上のロールがマッピングされた事前定義済みのユーザプロファイルが含まれます。各ロールには、SANtricity System Managerでタスクにアクセスするための権限が含まれています。
+
+ユーザープロファイルとマッピングされたロールは、System Managerのユーザーインターフェイスのメニュー：Settings[Access Management > Local User Roles]からアクセスできます。
+
+各ロールは、次のタスクへのアクセスを提供します。
+
+* * Storage admin * -- ストレージオブジェクト（ボリュームやディスクプールなど）へのフル読み取り / 書き込みアクセスは可能ですが、セキュリティ構成へのアクセスはできません。
+* *Security admin* -- Access Managementのセキュリティ設定、証明書管理、監査ログ管理へのアクセス、およびレガシー管理インターフェイス（SYMbol）のオン/オフを切り替える機能。
+* *サポート管理者* -- ストレージアレイ上のすべてのハードウェアリソース、障害データ、MELイベント、およびコントローラファームウェアのアップグレードへのアクセス。ストレージオブジェクトやセキュリティ設定へのアクセス権はありません。
+* *Monitor* -- すべてのストレージオブジェクトへの読み取り専用アクセスが可能ですが、セキュリティ構成へのアクセスはできません。
+
+
+ユーザに特定のタスクに対する権限がない場合、そのタスクはグレー表示されるか、ユーザ インターフェイスに表示されません。

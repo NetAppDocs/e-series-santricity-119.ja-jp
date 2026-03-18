@@ -1,0 +1,39 @@
+---
+permalink: um-admin/manage-session-timeouts-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, manage, session, timeouts 
+summary: SANtricity Unified Managerのタイムアウトを設定して、ユーザーの非アクティブなセッションを指定した時間後に切断できます。 
+---
+= SANtricity Unified Managerでセッションタイムアウトを管理する
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity Unified Managerのタイムアウトを設定して、指定された時間が経過した後にユーザーの非アクティブなセッションを切断できます。
+
+.タスク概要
+Unified Managerのセッション タイムアウトは、デフォルトでは30分です。その時間を調整することも、セッション タイムアウトを完全に無効にすることもできます。
+
+
+NOTE: アレイに組み込まれたSecurity Assertion Markup Language（SAML）機能を使用してアクセス管理が構成されている場合、ユーザーのSSOセッションが最大制限に達すると、セッションタイムアウトが発生する可能性があります。これは、System Managerセッションタイムアウトの前に発生する可能性があります。
+
+.手順
+. メニュー バーで、ユーザ ログイン名の横にあるドロップダウン矢印を選択します。
+. *セッション タイムアウトを有効 / 無効にする*を選択します。
++
+「セッションタイムアウトの有効化／無効化」ダイアログボックスが開きます。
+
+. スピン ボックスを使用して時間（分単位）を増減します。
++
+設定できる最小値は15分です。
+
++
+[NOTE]
+====
+セッションタイムアウトを無効にするには、*時間の長さを設定する...*チェックボックスをオフにします。
+
+====
+. *保存*をクリックします。
+

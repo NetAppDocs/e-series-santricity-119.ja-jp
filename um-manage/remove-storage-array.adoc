@@ -1,0 +1,29 @@
+---
+permalink: um-manage/remove-storage-array.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, remove, storage, arrays, 
+summary: SANtricity Unified Managerから管理する必要がなくなった場合は、1つ以上のストレージアレイを削除できます。 
+---
+= ストレージアレイをSANtricity Unified Managerから削除
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity Unified Managerから管理する必要がなくなった場合は、1つ以上のストレージアレイを削除できます。
+
+.タスク概要
+削除すると、そのストレージ アレイにはアクセスできなくなります。ただし、ブラウザでIPアドレスまたはホスト名を直接指定すれば、削除したストレージ アレイへの接続を確立できます。
+
+ストレージ アレイを削除しても、ストレージ アレイ自体やそのデータには影響はありません。ストレージ アレイを誤って削除した場合は、再度追加することができます。
+
+.手順
+. *Manage*ページを選択してください。
+. 削除するストレージ アレイを選択します。
+. メニュー：Uncommon Tasks[Remove storage array]を選択します。
++
+ストレージアレイは、SANtricity Unified Managerのすべてのビューから削除されます。
+
+

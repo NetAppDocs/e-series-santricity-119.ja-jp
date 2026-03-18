@@ -1,0 +1,14 @@
+---
+permalink: sm-support/view-storage-array-information.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, storage, array, 
+summary: ストレージアレイのプロファイルと、ストレージアレイ内の各コンポーネントのファームウェアバージョンを表示できます。 
+---
+= SANtricity System Managerでストレージアレイの情報を表示する
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージ アレイのプロファイルおよびストレージ アレイ内の各コンポーネントのファームウェア バージョンを表示できます。

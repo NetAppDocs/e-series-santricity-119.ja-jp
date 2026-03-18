@@ -1,0 +1,29 @@
+---
+permalink: sm-settings/add-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add, email, addresses, alerts, 
+summary: Eメール アラートには受信者を20名まで追加できます。 
+---
+= SANtricity System ManagerでアラートのEメールアドレスを追加
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Eメール アラートには受信者を20名まで追加できます。
+
+.手順
+. メニューの「設定」→「アラート」を選択します。
+. * Email * タブを選択します。
+. *Add Emails* を選択します。
++
+「メールアドレスの追加」ダイアログボックスが開きます。
+
+. 空欄に新しいメールアドレスを入力してください。複数のアドレスを追加する場合は、*Add another email*を選択して別の入力欄を開いてください。
+. *[追加]*をクリックします。
+
+
+.結果
+アラートページの「メール」タブに、新しいメールアドレスが表示されます。

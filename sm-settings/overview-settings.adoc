@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/overview-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, system settings 
+summary: System Managerでは、一般的なアレイ設定やアドオン機能などを構成できます。 
+---
+= SANtricity System Managerの設定の概要について説明します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+一般的なアレイ設定やアドオン機能について、SANtricity System Managerを設定できます。
+
+
+
+== 何を設定できますか?
+
+アレイ設定には以下のものがあります。
+
+* link:cache-settings-and-performance.html["キャッシュの設定とパフォーマンス"]
+* link:automatic-load-balancing-overview.html"["自動ロード バランシング"]
+* link:how-add-on-features-work.html["アドオン機能"]
+* link:overview-drive-security.html["ドライブ セキュリティ"]
+
+
+
+
+== 関連タスク
+
+システム設定に関連するタスクの詳細については、以下を参照してください。
+
+* link:download-cli.html["コマンドライン インターフェイス（CLI）のダウンロード"]
+* link:create-internal-security-key.html["内部セキュリティ キーの作成"]
+* link:create-external-security-key.html["外部セキュリティ キーの作成"]
+* link:../sm-hardware/configure-iscsi-ports-hardware.html["iSCSIポートの設定"]
+* link:../sm-hardware/configure-nvme-over-infiniband-ports-hardware.html["NVME over IBポートの設定"]
+* link:../sm-hardware/configure-nvme-over-roce-ports-hardware.html["NVMe over RoCEポートの設定"]
+

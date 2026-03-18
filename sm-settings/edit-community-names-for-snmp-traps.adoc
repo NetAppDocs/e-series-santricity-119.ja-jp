@@ -1,0 +1,31 @@
+---
+permalink: sm-settings/edit-community-names-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, communities, smpv2c, traps, 
+summary: SNMPv2cトラップのコミュニティ名を編集できます。 
+---
+= SANtricity System ManagerでSNMPv2cトラップのコミュニティを編集します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SNMPv2cトラップのコミュニティ名を編集できます。
+
+.開始する前に
+コミュニティ名が作成されている必要があります。
+
+.手順
+. メニュー:Setting[Alerts]を選択します。
+. * SNMP *タブを選択します。
++
+トラップの送信先とコミュニティ名が表に表示されます。
+
+. * Configure Communities * を選択します。
+. 新しいコミュニティ名を入力し、*保存*をクリックします。コミュニティ名には、印刷可能なASCII文字のみを使用できます。
+
+
+.結果
+[アラート]ページの[SNMP]タブに、更新されたコミュニティ名が表示されます。

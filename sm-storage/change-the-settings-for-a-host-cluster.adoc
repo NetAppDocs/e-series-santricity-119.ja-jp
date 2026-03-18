@@ -1,0 +1,50 @@
+---
+permalink: sm-storage/change-the-settings-for-a-host-cluster.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, settings, host, cluster 
+summary: ホスト クラスタの名前を変更したり、ホスト クラスタ内のホストを追加、削除できます。 
+---
+= SANtricity System Managerでホストクラスタの設定を変更する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ホスト クラスタの名前を変更したり、ホスト クラスタ内のホストを追加、削除できます。
+
+.手順
+. メニュー：Storage[Hosts]を選択します。
+. 編集するホストクラスタを選択し、*設定の表示/編集*をクリックします。
++
+ダイアログ ボックスが表示され、ホスト クラスタの現在の設定が表示されます。
+
+. ホスト クラスタの設定を適宜変更します。
++
+.フィールドの詳細
+[%collapsible]
+====
+[cols="25h,~"]
+|===
+| 設定 | 概要 
+
+
+ a| 
+Name
+ a| 
+ホスト クラスタの名前を指定できます。クラスタの名前は必ず指定する必要があります。
+
+
+
+ a| 
+関連付けられているホスト
+ a| 
+ホストを追加するには、*関連ホスト*ボックスをクリックし、ドロップダウンリストからホスト名を選択します。ホスト名を手動で入力することはできません。
+
+ホストを削除するには、ホスト名の横にある *X* をクリックします。
+
+|===
+====
+. *保存*をクリックします。
+

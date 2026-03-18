@@ -1,0 +1,47 @@
+---
+permalink: sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, change, reserved, capacity, settings, mirrored, pair, volume, 
+summary: ミラー ペア ボリュームの設定を変更して、ボリュームのリザーブ容量が残り少なくなったときにSystem Managerからアラート通知を送信する割合を調整できます。 
+---
+= SANtricity System Managerでミラーペアボリュームの予約容量設定を変更する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラーリングされたペアボリュームの設定を変更して、ミラーリングされたペアボリュームの予約容量がいっぱいになりそうなときに SANtricity System Manager がアラート通知を送信するパーセンテージポイントを調整できます。
+
+.手順
+. メニュー：Storage[Pools & Volume Groups]を選択します。
+. * Reserved Capacity * タブを選択します。
+. 編集するミラーペアボリュームを選択し、*設定の表示/編集*をクリックします。
++
+「ミラーリングペアボリュームの予約容量設定」ダイアログボックスが表示されます。
+
+. ミラー ペア ボリュームのリザーブ容量設定を適宜変更します。
++
+.フィールドの詳細
+[%collapsible]
+====
+[cols="25h,~"]
+|===
+| 設定 | 概要 
+
+
+ a| 
+アラートの送信しきい値...
+ a| 
+このスピン ボックスを使用して、ミラー ペアのボリュームのリザーブ容量が残り少なくなったときにSystem Managerからアラート通知を送信する割合を調整します。
+
+ミラー ペアのリザーブ容量の使用率が指定したしきい値を超えるとSystem Managerからアラートが送信されるため、前もってリザーブ容量を増やすことができます。
+
+
+NOTE: 1つのミラー ペアのアラート設定を変更すると、同じミラー整合性グループに属するすべてのミラー ペアのアラート設定が変更されます。
+
+|===
+====
+. 変更を適用するには、*保存*をクリックしてください。
+

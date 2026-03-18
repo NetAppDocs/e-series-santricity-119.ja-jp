@@ -1,0 +1,32 @@
+---
+permalink: sm-settings/download-cli.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, download, command line interface, CLI, 
+summary: System Managerからコマンドラインインターフェース（CLI）パッケージをダウンロードできます。 
+---
+= SANtricityコマンドラインインターフェース（CLI）をダウンロード
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Managerから、コマンドラインインターフェース（CLI）パッケージをダウンロードできます。
+
+CLIでは、テキストベースのコマンドを使用してストレージ アレイを設定および監視できます。このCLIはHTTPS経由で通信し、外部にインストールされた管理ソフトウェア パッケージのCLIと同じ構文を使用します。CLIをダウンロードするためにキーは必要ありません。
+
+.開始する前に
+CLIコマンドを実行する管理システムに、Java Runtime Environment（JRE）バージョン8以降がインストールされている必要があります。
+
+.手順
+. メニュー：Settings[System]を選択します。
+. *アドオン*で*Command Line Interface*を選択します。
++
+ZIPパッケージがブラウザにダウンロードされます。
+
+. ストレージ アレイに対してCLIコマンドを実行する管理システムにZIPファイルを保存し、ファイルを展開します。
++
+DOSのC：プロンプトなど、オペレーティングシステムのプロンプトからCLIコマンドを実行できるようになりました。CLIコマンドのリファレンスは、System Managerのユーザーインターフェイス右上にあるヘルプメニューから入手できます。
+
+

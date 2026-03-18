@@ -1,0 +1,49 @@
+---
+permalink: um-certificates/access-management-with-directory-services-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, directory services, 
+summary: 管理者は、LDAP（Lightweight Directory Access Protocol）サーバと、MicrosoftのActive Directoryなどのディレクトリサービスを使用できます。 
+---
+= SANtricity Unified Managerにおけるディレクトリサービスによるアクセス管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+LDAP（Lightweight Directory Access Protocol）サーバとディレクトリ サービス（MicrosoftのActive Directoryなど）を使用して認証を管理することができます。
+
+
+
+== 設定ワークフロー
+
+ネットワークでLDAPサーバとディレクトリ サービスを使用している場合の設定は次のようになります。
+
+. 管理者は、Security admin権限を含むユーザープロファイルを使用してUnified Managerにログインします。
++
+[NOTE]
+====
+ `admin`ユーザには、システム内のすべての機能へのフルアクセス権があります。
+
+====
+. LDAPサーバの設定を入力します。これには、ドメイン名、URL、バインド アカウント情報が含まれます。
+. LDAPサーバでセキュアなプロトコル（LDAPS）を使用している場合、LDAPサーバとホスト システム（Webサービス プロキシがインストールされているシステム）の間の認証に使用する認証局（CA）証明書チェーンをアップロードします。
+. サーバ接続が確立されたら、ユーザ グループをローカル ユーザ ロールにマッピングします。これらのロールは事前に定義され、変更することはできません。
+. LDAPサーバとWebサービス プロキシの間の接続をテストします。
+. ユーザは各自に割り当てられたLDAP / ディレクトリ サービスのクレデンシャルでシステムにログインします。
+
+
+
+
+== 管理
+
+認証にディレクトリ サービスを使用する場合、管理者は次の管理タスクを実行できます。
+
+* ディレクトリ サーバを追加する。
+* ディレクトリ サーバの設定を編集する。
+* LDAPユーザをローカル ユーザ ロールにマッピングする。
+* ディレクトリ サーバを削除する。
+* パスワードを変更する。
+* パスワードの最小文字数を設定する。
+* パスワードなしでログインできるようにユーザに許可する。
+

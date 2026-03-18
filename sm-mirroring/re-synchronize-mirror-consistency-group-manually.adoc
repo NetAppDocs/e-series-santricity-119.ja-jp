@@ -1,0 +1,35 @@
+---
+permalink: sm-mirroring/re-synchronize-mirror-consistency-group-manually.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, re-synchronize, mirror, consistency, group, manually, 
+summary: ミラー整合性グループ内のすべてのミラー ペアの再同期を手動で開始できます。 
+---
+= SANtricity System Manager でミラー整合性グループを手動で再同期します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラー整合性グループ内のすべてのミラー ペアの再同期を手動で開始できます。
+
+.手順
+. メニュー：Storage[Asynchronous Mirroring]を選択します。
+. *Mirror Consistency Groups*タブを選択します。
++
+[ミラー整合性グループ]の表に、ストレージ アレイに関連付けられているすべてのミラー整合性グループが表示されます。
+
+. 再同期するミラー整合性グループを選択し、メニューの「その他」［手動で再同期］を選択します。
++
+確認のメッセージが表示されます。
+
+. *はい*を選択して確認します。
+
+
+.結果
+次の処理が実行されます。
+
+* 選択したミラー整合性グループ内のすべてのミラー ペアでデータの再同期が開始されます。
+* ローカル ストレージ アレイからリモート ストレージ アレイへ、変更されたデータが更新されます。
+

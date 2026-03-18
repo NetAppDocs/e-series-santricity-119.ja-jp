@@ -1,0 +1,32 @@
+---
+permalink: sm-support/end-iscsi-session-support.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, end, iscsi, session 
+summary: 不要になったiSCSIセッションを終了できます。iSCSIセッションは、非同期ミラー関係にあるホストまたはリモート ストレージ アレイとの間で発生します。 
+---
+= SANtricity System ManagerでiSCSIセッションを終了する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+不要になったiSCSIセッションを終了できます。iSCSIセッションは、非同期ミラー関係にあるホストまたはリモート ストレージ アレイとの間で発生します。
+
+.タスク概要
+iSCSIセッションを終了する理由として以下が考えられます。
+
+* *不正アクセス* -- iSCSI イニシエータがログオンしていて、アクセス権限がない場合は、iSCSI セッションを終了して、iSCSI イニシエータをストレージアレイから強制的に切断できます。iSCSI イニシエータは、None 認証方式が使用可能だったためログオンできた可能性があります。
+* *システムのダウンタイム* -- ストレージアレイを停止する必要があり、iSCSI イニシエータがまだログオンしていることが確認された場合は、iSCSI セッションを終了して、iSCSI イニシエータをストレージアレイから切断できます。
+
+
+.手順
+. メニューの「Support」→「Support Center」→「Diagnostics」タブを選択します。
+. *View/End iSCSI Sessions*を選択します。
++
+現在のiSCSIセッションのリストが表示されます。
+
+. 終了するセッションを選択します。
+. *セッション終了*をクリックし、操作を実行することを確認してください。
+

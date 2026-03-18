@@ -1,0 +1,46 @@
+---
+permalink: um-certificates/overview-access-management-um.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, authentication 
+summary: アクセス管理は、SANtricity Unified Managerでユーザ認証を設定する方法です。 
+---
+= SANtricity Unified Managerのアクセス管理について学ぶ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アクセス管理は、SANtricity Unified Managerでユーザ認証を設定する方法です。
+
+
+
+== 使用可能な認証方式にはどのようなものがありますか?
+
+次の認証方式を使用できます。
+
+* *ローカルユーザロール* -- 認証はRBAC（ロールベースのアクセス制御）機能を通じて管理されます。ローカルユーザロールには、特定のアクセス権限を持つ事前定義されたユーザプロファイルとロールが含まれます。
+* *ディレクトリサービス* -- ユーザ認証は、LDAP（Lightweight Directory Access Protocol）サーバと、MicrosoftのActive Directoryなどのディレクトリサービスを介して管理されます。
+* *SAML* -- 認証は、SAML 2.0 を使用する ID プロバイダー（IdP）を介して管理されます。
+
+
+詳細については、以下を参照してください。
+
+* link:how-access-management-works-unified.html["アクセス管理の仕組み"]
+* link:access-management-terminology-unified.html["アクセス管理の用語"]
+* link:permissions-for-mapped-roles-unified.html["マッピングされたロールの権限"]
+* link:access-management-with-saml.html["SAML"]
+
+
+
+
+== アクセス管理を設定するにはどうすればよいですか?
+
+SANtricityソフトウェアは、ローカル ユーザ ロールを使用するように事前に設定されています。LDAPを使用する場合は[アクセス管理]ページで設定できます。
+
+詳細については、以下を参照してください。
+
+* link:access-management-with-local-user-roles-unified.html["ローカル ユーザ ロールを使用したアクセス管理"]
+* link:access-management-with-directory-services-unified.html["ディレクトリ サービスを使用したアクセス管理"]
+* link:configure-saml.html["SAMLの設定"]
+

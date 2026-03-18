@@ -1,0 +1,41 @@
+---
+permalink: sm-support/enable-or-disable-autosupport-features.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, disable, autosupport, 
+summary: AutoSupport機能およびAutoSupportの個々の機能は、初期セットアップ時に設定するか、あとから有効または無効にすることができます。 
+---
+= SANtricity System ManagerでAutoSupport機能を有効または無効にする
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupport機能およびAutoSupportの個々の機能は、初期セットアップ時に設定するか、あとから有効または無効にすることができます。
+
+.開始する前に
+AutoSupport OnDemandまたはRemote Diagnosticsを有効にする場合は、AutoSupportの配信方法をHTTPSに設定する必要があります。
+
+.タスク概要
+AutoSupport機能はいつでも無効にできますが、有効なままにしておくことを強く推奨します。AutoSupport機能を有効にしておくと、ストレージ アレイに問題が発生したときに、迅速に原因を判断して解決できます。
+
+AutoSupport機能は、個別に有効にする3つの機能で構成されています。
+
+* *基本AutoSupport* -- ストレージ アレイがデータを自動的に収集し、テクニカル サポートに送信できるようにします。
+* *AutoSupport OnDemand* -- 問題のトラブルシューティングに必要な場合に、テクニカルサポートが以前のAutoSupportディスパッチの再送信を要求できるようにします。すべての送信は、AutoSupportサーバからではなく、ストレージアレイから開始されます。ストレージアレイは定期的にAutoSupportサーバと通信して、保留中の再送信要求があるかどうかを確認し、それに応じて応答します。
+* *リモート診断* -- 問題のトラブルシューティングに必要な場合、テクニカルサポートが最新のAutoSupportディスパッチを要求できるようにします。すべての送信は、AutoSupportサーバからではなく、ストレージアレイから開始されます。ストレージアレイは定期的にAutoSupportサーバと通信し、保留中の新しい要求があるかどうかを確認して、それに応じて応答します。
+
+
+.手順
+. メニューを選択：サポート[サポートセンター > AutoSupport]タブ。
+. *Enable/Disable AutoSupport Features*を選択します。
+. 有効にするAutoSupport機能の横にあるチェック ボックスを選択します。
++
+ダイアログ ボックス内の項目のレイアウトからわかるように、機能は相互に依存しています。たとえば、Remote Diagnosticsを有効にするには、まずAutoSupport OnDemandを有効にする必要があります。
+
+. *保存*をクリックします。
++
+AutoSupportを無効にすると、ホームページに通知が表示されます。*無視*をクリックすると、通知を非表示にできます。
+
+

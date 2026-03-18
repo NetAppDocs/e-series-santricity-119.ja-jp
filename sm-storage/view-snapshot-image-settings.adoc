@@ -1,0 +1,28 @@
+---
+permalink: sm-storage/view-snapshot-image-settings.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, snapshot, image, settings 
+summary: 各Snapshotイメージに割り当てられているプロパティ、ステータス、リザーブ容量、関連オブジェクトを表示できます。 
+---
+= SANtricity System Managerでスナップショット画像の設定を表示する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+各Snapshotイメージに割り当てられているプロパティ、ステータス、リザーブ容量、関連オブジェクトを表示できます。
+
+.タスク概要
+Snapshotイメージの関連オブジェクトには、そのSnapshotイメージがリストア ポイントであるベース ボリュームまたはSnapshot整合性グループ、関連するSnapshotグループ、およびSnapshotイメージから作成されたSnapshotボリュームが含まれます。Snapshotの設定を使用して、Snapshotイメージをコピーするか変換するかを判断します。
+
+.手順
+. メニュー：Storage[Snapshots]を選択します。
+. * Snapshot Images * タブをクリックします。
+. 表示するスナップショットイメージを選択し、*View Settings*をクリックします。
++
+Snapshot Image Settingsダイアログボックスが表示されます。
+
+. Snapshotイメージの設定を確認します。
+

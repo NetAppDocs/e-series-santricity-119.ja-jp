@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: early-versions.html 
+keywords: early versions, e-series, hardware, santricity, os 
+summary: 以前のバージョンのドキュメント 
+---
+= 以前のバージョン
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+以前のバージョンのEシリーズ ハードウェアとSANtricityソフトウェアのドキュメントには、以下のリンクからアクセスできます。リンクをクリックすると、別のドキュメント サイトに移動します。
+
+
+
+== 以前のリリースのハードウェア ドキュメント
+
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2484026["E2712、E2724、E5612、E5624コントローラドライブトレイ、およびDE1600、DE5600拡張ドライブトレイを取り付けます"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2484072["E2760およびE5660コントローラドライブトレイとDE6600拡張ドライブトレイを取り付けます"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2484108["EF560フラッシュアレイとDE5600フラッシュ拡張トレイを設置する"^]
+* https://mysupport.netapp.com/info/web/ECMP11392380.html["古いシステムをインストールする"^]
+* https://mysupport.netapp.com/info/web/ECMP11751516.html["古いシステムを維持する"^]
+* https://mysupport.netapp.com/ecm/ecm_download_file/ECMP1394872["E2600およびE2700に2つ目のコントローラを追加する"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2353447["ホストプロトコルを変更または追加する"^]
+* https://mysupport.netapp.com/ecm/ecm_download_file/ECMP1656638["AC電力をDC電力に変換する"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2589397["コントローラアップグレードガイド - 従来のコントローラモデル"^]
+
+
+
+
+== 以前のリリースのソフトウェア ドキュメント
+
+
+
+=== SANtricityリリース11.8
+
+* https://docs.netapp.com/us-en/e-series-santricity-118/index.html["System Managerヘルプ"^]
+* https://docs.netapp.com/us-en/e-series-santricity-118/index.html["Unified Manager のヘルプ"^]
+
+
+
+
+=== SANtricityリリース11.7
+
+* https://docs.netapp.com/us-en/e-series-santricity-117/index.html["System Managerヘルプ"^]
+* https://docs.netapp.com/us-en/e-series-santricity-117/index.html["Unified Manager のヘルプ"^]
+
+
+
+
+=== SANtricityリリース11.6
+
+* https://docs.netapp.com/us-en/e-series-santricity-116/index.html["System Managerヘルプ"^]
+* https://docs.netapp.com/us-en/e-series-santricity-116/index.html["Unified Manager のヘルプ"^]
+
+
+
+
+=== SANtricityリリース11.5
+
+* https://docs.netapp.com/us-en/e-series-santricity-115/index.html["System Managerヘルプ"^]
+
+
+
+
+=== SANtricityリリース11.4
+
+* https://mysupport.netapp.com/ecm/ecm_get_file/ECMLP2862590["Array Management Window（E2700、E5600/EF560）ヘルプ"^]
+* https://mysupport.netapp.com/ecm/ecm_get_file/ECMLP2862588["EMW（E2700、E5600/EF560）ヘルプ"^]
+

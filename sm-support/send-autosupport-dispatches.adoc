@@ -1,0 +1,30 @@
+---
+permalink: sm-support/send-autosupport-dispatches.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, send, autosupport, dispatches 
+summary: System Managerでは、スケジュールされたディスパッチを待たずにテクニカル サポートにAutoSupportディスパッチを送信できます。 
+---
+= SANtricity System ManagerでAutoSupportディスパッチを送信
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Managerを使用すると、スケジュールされたディスパッチを待たずに、AutoSupportディスパッチをテクニカルサポートに送信できます。
+
+.開始する前に
+AutoSupport機能が有効になっている必要があります。有効になっているかどうかは[AutoSupport]ページで確認できます。
+
+.タスク概要
+この処理では、サポート データが収集され、問題のトラブルシューティングのためにテクニカル サポートに自動的に送信されます。
+
+.手順
+. メニューを選択：サポート[サポートセンター > AutoSupport]タブ。
+. *Send AutoSupport Dispatchを選択*。
++
+[AutoSupport ディスパッチを送信]ダイアログ ボックスが表示されます。
+
+. *Send*を選択して操作を確定します。
+

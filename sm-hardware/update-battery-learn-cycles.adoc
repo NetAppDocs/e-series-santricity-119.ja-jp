@@ -1,0 +1,29 @@
+---
+permalink: sm-hardware/update-battery-learn-cycles.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, update, battery, learn, cycles 
+summary: 学習サイクルは、スマート バッテリ ゲージを調整する自動サイクルです。このサイクルは、コントローラごとに8週間の間隔で同じ日時に自動的に開始するようスケジュール設定されます。別のスケジュールを設定する場合は、学習サイクルを調整できます。 
+---
+= SANtricity System Managerでバッテリー学習サイクルを更新
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+学習サイクルは、スマート バッテリ ゲージを調整する自動サイクルです。このサイクルは、コントローラごとに8週間の間隔で同じ日時に自動的に開始するようスケジュール設定されます。別のスケジュールを設定する場合は、学習サイクルを調整できます。
+
+.タスク概要
+学習サイクルの更新は両方のコントローラのバッテリに反映されます。
+
+.手順
+. *ハードウェア*を選択します。
+. コントローラーシェルフのドロップダウンリストを選択し、次に*設定を表示*を選択します。
+. *Batteries* タブを選択してください。
+. *Update battery learn cycles* を選択します。
++
+「バッテリー学習サイクルの更新」ダイアログボックスが開きます。
+
+. ドロップダウン リストから新しい日時を選択します。
+. *保存*をクリックします。
+

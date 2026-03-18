@@ -1,0 +1,31 @@
+---
+permalink: sm-storage/copy-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, copy, snapshot, volume 
+summary: SnapshotボリュームやSnapshot整合性グループのSnapshotボリュームについて、ボリューム コピー プロセスを実行することができます。 
+---
+= SANtricity System Managerでスナップショットボリュームをコピーします
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SnapshotボリュームやSnapshot整合性グループのSnapshotボリュームについて、ボリューム コピー プロセスを実行することができます。
+
+.タスク概要
+Snapshotボリュームをターゲット ボリュームにコピーする方法は、通常のボリューム コピー処理と同じです。ただし、Snapshotボリュームはオンラインのままコピー プロセスを実行することはできません。
+
+.手順
+. メニュー：Storage[Snapshots]を選択します。
+. * Snapshot Volumes * タブを選択します。
++
+[Snapshot ボリューム]の表に、ストレージ アレイに関連付けられているすべてのSnapshotボリュームが表示されます。
+
+. コピーするスナップショットボリュームを選択し、次に*ボリュームのコピー*を選択します。
++
+「ボリュームのコピー」ダイアログボックスが表示され、ターゲットを選択するように求められます。
+
+. コピー先として使用するターゲットボリュームを選択し、*完了*をクリックします。
+

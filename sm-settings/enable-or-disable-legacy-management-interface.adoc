@@ -1,0 +1,35 @@
+---
+permalink: sm-settings/enable-or-disable-legacy-management-interface.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, enable, disable, legacy, management, interface, 
+summary: ストレージ アレイと管理クライアントの間の通信方法である、従来の管理インターフェイス（SYMbol）を有効または無効にすることができます。 
+---
+= SANtricity System Managerでレガシー管理インターフェイスを有効または無効にする
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージ アレイと管理クライアントの間の通信方法である、従来の管理インターフェイス（SYMbol）を有効または無効にすることができます。
+
+.タスク概要
+デフォルトでは、従来の管理インターフェイスは有効になっています。無効にすると、ストレージ アレイと管理クライアントはよりセキュアな通信方法（REST API over https）を使用します。ただし、無効にした場合、特定のツールやタスクに影響が出る場合があります。
+
+[NOTE]
+====
+EF600ストレージ システムでは、この機能はデフォルトで無効になっています。
+
+====
+この設定は処理に次のように影響します。
+
+* *オン*（デフォルト）-- CLI や OCI アダプタなどの他のツールを使用してミラーリングを構成するために必要な設定です。
+* *オフ* -- ストレージ アレイと管理クライアント間の通信における機密性を確保し、外部ツールにアクセスするために必要な設定です。ディレクトリ サーバー（LDAP）を設定する際の推奨設定。
+
+
+.手順
+. メニュー：Settings[System]を選択します。
+. *追加設定*までスクロールダウンし、*管理インターフェイスの変更*をクリックします。
+. ダイアログボックスで *Yes* をクリックして続行してください。
+

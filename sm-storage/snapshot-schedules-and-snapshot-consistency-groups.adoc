@@ -1,0 +1,38 @@
+---
+permalink: sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, schedules, snapshot, consistency groups 
+summary: Snapshotイメージの収集スケジュールを使用し、Snapshot整合性グループを使用して複数のベース ボリュームを管理します。 
+---
+= SANtricity System ManagerのSnapshotスケジュールとSnapshot整合性グループについて説明します
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotイメージの収集スケジュールを使用し、Snapshot整合性グループを使用して複数のベース ボリュームを管理します。
+
+ベース ボリュームのSnapshot処理を簡単に管理するために、次の機能を使用できます。
+
+* *Snapshotスケジュール* -- 単一のベースボリュームのSnapshotを自動化します。
+* *Snapshot整合性グループ* -- 複数のベースボリュームを1つのエンティティとして管理します。
+
+
+
+
+== Snapshotスケジュール
+
+ベース ボリュームのSnapshotを自動的に作成する場合は、スケジュールを作成できます。たとえば、毎月第1土曜日の午前0時にSnapshotイメージを作成するスケジュールを定義できます。任意の日時を指定することもできます。1つのスケジュールにつき最大32個のSnapshotに達すると、スケジュールされたSnapshotを一時停止して追加のリザーブ容量を作成したり、Snapshotを削除したりできます。Snapshotを手動で削除することも、削除プロセスを自動化することもできます。Snapshotイメージが削除されたら、追加のリザーブ容量を再利用できます。
+
+
+
+== Snapshot整合性グループ
+
+複数のボリュームで同時にSnapshotイメージが作成されるようにする場合は、Snapshot整合性グループを作成します。Snapshotイメージの操作がSnapshot整合性グループに対してまとめて実行されます。たとえば、タイムスタンプが同じすべてのボリュームの同期されたSnapshotのスケジュールを設定できます。Snapshot整合性グループは、複数のボリュームにまたがるアプリケーションに最適です（あるボリュームにログを格納して別のボリュームにデータベース ファイルを格納するデータベース アプリケーションなど）。
+
+Snapshot整合性グループに含まれるボリュームはメンバー ボリュームと呼ばれます。整合性グループにボリュームを追加する場合は、そのメンバー ボリュームに対応する新しいリザーブ容量がSystem Managerによって自動的に作成されます。各メンバー ボリュームのSnapshotイメージを自動的に作成するスケジュールを定義できます。
+
+image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[Snapshotの整合性グループの概要]
+
+^1^ 予約容量；^2^ メンバーボリューム；^3^ 整合性グループのSnapshotイメージ

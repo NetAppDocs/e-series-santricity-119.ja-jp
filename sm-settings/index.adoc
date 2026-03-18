@@ -1,0 +1,14 @@
+---
+permalink: sm-settings/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= SANtricity System Manager 11.9
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+一般的なアレイ設定やアドオン機能について、SANtricity System Managerを設定できます。

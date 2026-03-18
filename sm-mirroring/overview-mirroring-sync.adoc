@@ -1,0 +1,59 @@
+---
+permalink: sm-mirroring/overview-mirroring-sync.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, RVM, synchronous, mirroring, controllers, 
+summary: 同期ミラーリング機能は、遠距離にあるストレージ アレイ間のオンラインのリアルタイム データ レプリケーションを提供します。 
+---
+= SANtricity ソフトウェアの同期ミラーリングについて学ぶ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+同期ミラーリング機能は、遠距離にあるストレージ アレイ間のオンラインのリアルタイム データ レプリケーションを提供します。
+
+[NOTE]
+====
+この機能は、EF600/EF600CまたはEF300/EF300Cストレージ システムではご利用いただけません。
+
+====
+
+
+== 同期ミラーリングとは何ですか?
+
+_同期ミラーリング_は、データボリュームをリアルタイムでレプリケートし、継続的な可用性を確保します。ストレージアレイコントローラはミラーリング操作を管理しますが、これはホストマシンやソフトウェアアプリケーションに対して透過的です。
+
+このタイプのミラーリングは、ディザスタ リカバリなどのビジネス継続性の確保に最適です。
+
+詳細については、以下を参照してください。
+
+* link:how-synchronous-mirroring-works.html["同期ミラーリングの仕組み"]
+* link:synchronous-mirroring-terminology.html["同期ミラーリングに関する用語"]
+* link:synchronous-mirroring-status.html["同期ミラーリングのステータス"]
+* link:volume-ownership-sync.html["ボリューム所有権"]
+* link:role-change-of-volumes-in-a-mirrored-pair.html["ミラー ペア内のボリューム間でのロール変更"]
+
+
+
+
+== 同期ミラーリングを設定するにはどうすればよいですか?
+
+アレイ間の最初のミラーリングは、Unified Managerを使用して設定する必要があります。設定後は、System Managerでミラー ペアを管理できます。
+
+詳細については、以下を参照してください。
+
+* link:requirements-for-using-synchronous-mirroring.html["同期ミラーリングを使用するための要件"]
+* link:workflow-for-mirroring-a-volume-synchronously.html["ボリュームを同期的にミラーリングするためのワークフロー"]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html["Create synchronous mirrored pair（Unified Manager）"]
+
+
+
+
+== 関連情報
+
+同期ミラーリングに関連する概念の詳細については、以下を参照してください。
+
+* link:synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html["ミラー ペアを作成するときは、どのような点に注意する必要がありますか?"]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html["非同期ミラーリングと同期ミラーリングの違いは何ですか?"]
+

@@ -1,0 +1,55 @@
+---
+permalink: sm-storage/overview-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes 
+summary: アプリケーション、データベース、およびファイルシステムがデータを格納するコンテナとしてボリュームを作成できます。ボリュームを作成する際は、ワークロードを選択することで特定のアプリケーション用にストレージ アレイの構成をカスタマイズします。 
+---
+= SANtricity System Managerのボリュームとワークロードについて学ぶ
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アプリケーション、データベース、およびファイルシステムがデータを格納するコンテナとしてボリュームを作成できます。ボリュームを作成する際は、ワークロードを選択することで特定のアプリケーション用にストレージ アレイの構成をカスタマイズします。
+
+
+
+== ボリュームおよびワークロードとは何ですか?
+
+_volume_は、ホストがアクセスするための特定の容量を持って作成される論理コンポーネントです。ボリュームは複数のドライブで構成される場合がありますが、ホストに対しては1つの論理コンポーネントとして表示されます。ボリュームが定義されたら、ワークロードに追加できます。_workload_は、SQL ServerやExchangeなどのアプリケーションをサポートするストレージオブジェクトであり、そのアプリケーション用にストレージを最適化するために使用できます。
+
+詳細については、以下を参照してください。
+
+* link:how-volumes-work.html["ボリュームの機能"]
+* link:how-workloads-work.html["ワークロードの仕組み"]
+* link:volume-terminology.html["ボリュームに関する用語"]
+* link:capacity-for-volumes.html["ボリュームの容量割り当て方法"]
+* link:actions-you-can-perform-on-volumes.html["ボリュームで実行できる操作"]
+
+
+
+
+== ボリュームとワークロードを作成するにはどうすればよいですか?
+
+まず、ワークロードを作成します。メニューの「ストレージ」→「ボリューム」を選択し、手順を案内するウィザードを開いてください。次に、プールまたはボリューム グループで使用可能な容量からボリュームを作成し、作成したワークロードを割り当てます。
+
+詳細については、以下を参照してください。
+
+* link:workflow-for-creating-volumes.html["ボリュームを作成するためのワークフロー"]
+* link:create-workloads.html["ワークロードの作成"]
+* link:create-volumes.html["ボリュームの作成"]
+* link:add-to-workload.html["ワークロードへのボリュームの追加"]
+
+
+
+
+== 関連情報
+
+ボリュームに関連する概念の詳細については、以下を参照してください。
+
+* link:data-integrity-and-data-security-for-volumes.html["ボリュームのデータ整合性とデータ セキュリティ"]
+* link:ssd-cache-and-volumes.html["SSDキャッシュとボリューム"]
+* link:thin-volume-monitoring.html["シン ボリュームの監視"]
+

@@ -1,0 +1,37 @@
+---
+permalink: sm-storage/delete-snapshot-volume.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, volume 
+summary: Snapshotボリューム、またはSnapshot整合性グループのSnapshotボリュームは、バックアップやソフトウェア アプリケーションのテストに必要なくなったときは削除することができます。 
+---
+= SANtricity System Managerでスナップショットボリュームを削除します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotボリューム、またはSnapshot整合性グループのSnapshotボリュームは、バックアップやソフトウェア アプリケーションのテストに必要なくなったときは削除することができます。
+
+スナップショットに関連付けられた予約容量ボリュームを削除するか `read-write`、スナップショット予約容量ボリュームを未割り当てボリュームとして保持するかを指定することもできます。
+
+.タスク概要
+ベースボリュームを削除すると、関連付けられているスナップショットボリュームまたは整合性グループスナップショットボリュームも自動的に削除されます。「進行中」ステータスのボリュームコピー中のスナップショットボリュームは削除できません。
+
+.手順
+. メニュー：Storage[Snapshots]を選択します。
+. * Snapshot Volumes * タブを選択します。
++
+System Managerに、ストレージ アレイに関連付けられているすべてのSnapshotボリュームが表示されます。
+
+. 削除するスナップショットボリュームを選択し、メニュー：通常とは異なるタスク[削除]を選択します。
+. 操作を実行することを確認し、*Delete*をクリックします。
+
+
+.結果
+System Manager は以下の操作を実行します。
+
+* メンバーであるSnapshotボリュームをすべて削除します（Snapshot整合性グループのSnapshotボリュームの場合）。
+* 関連付けられているホスト割り当てをすべて削除します。
+

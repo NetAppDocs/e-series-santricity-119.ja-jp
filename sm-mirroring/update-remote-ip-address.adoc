@@ -1,0 +1,34 @@
+---
+permalink: sm-mirroring/update-remote-ip-address.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, update, remote, ip, address, connection, 
+summary: リモート ストレージ アレイのiSCSI IPアドレスを更新して、ローカル ストレージ アレイとの接続を再確立できます。 
+---
+= SANtricity System ManagerでリモートストレージアレイのIPアドレスを更新します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リモート ストレージ アレイのiSCSI IPアドレスを更新して、ローカル ストレージ アレイとの接続を再確立できます。
+
+.開始する前に
+iSCSI接続を使用して非同期ミラーリングを行うために、ローカル ストレージ アレイとリモート ストレージ アレイを設定する必要があります。
+
+.手順
+. メニュー：Storage[Asynchronous Mirroring]を選択します。
+. *Mirror Consistency Groups*タブを選択します。
++
+[ミラー整合性グループ]の表に、ストレージ アレイに関連付けられているすべてのミラー整合性グループが表示されます。
+
+. 更新するミラー整合性グループを選択し、メニュー：その他［リモート IP アドレスの更新］を選択します。
++
+システムに [ リモート IP アドレスの更新 ] ダイアログ ボックスが表示されます。
+
+. リモート ストレージ アレイの iSCSI IP アドレスを更新するには、*更新*を選択します。
+
+
+.結果
+リモート ストレージ アレイのIPアドレスがリセットされて、ローカル ストレージ アレイとの接続が再確立されます。

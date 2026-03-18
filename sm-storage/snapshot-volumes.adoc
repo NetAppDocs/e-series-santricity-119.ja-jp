@@ -1,0 +1,22 @@
+---
+permalink: sm-storage/snapshot-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshot, volumes 
+summary: Snapshotデータの読み取りまたは書き込みを行う場合は、Snapshotボリュームを作成してホストに割り当てることができます。Snapshotボリュームは、ベース ボリュームと同じ特性（RAIDレベル、I/O特性など）を共有します。 
+---
+= SANtricityソフトウェアのSnapshotボリュームについて学ぶ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotデータの読み取りまたは書き込みを行う場合は、Snapshotボリュームを作成してホストに割り当てることができます。Snapshotボリュームは、ベース ボリュームと同じ特性（RAIDレベル、I/O特性など）を共有します。
+
+スナップショットボリュームを作成する際に、それを__読み取り専用__または_読み書き可能_として指定できます。
+
+読み取り専用Snapshotボリュームを作成する場合、リザーブ容量を追加する必要はありません。読み書き可能Snapshotボリュームを作成する場合は、リザーブ容量を追加して書き込みアクセスを許可する必要があります。
+
+image::../media/sam1130-dwg-snapshots-volumes-overview.gif[Snapshotボリュームの概要]
+
+^1^ ベースボリューム；^2^ ホスト；^3^ 読み取り専用Snapshotボリューム；^4^ 読み書き可能なSnapshotボリューム；^5^ 予約済み容量

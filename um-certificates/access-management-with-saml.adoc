@@ -1,0 +1,74 @@
+---
+permalink: um-certificates/access-management-with-saml.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, saml 
+summary: アクセス管理に関しては、管理者はアレイに組み込まれているSecurity Assertion Markup Language（SAML）2.0の機能を使用できます。 
+---
+= SANtricity Unified ManagerでのSAMLを使用したアクセス管理
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アクセス管理に関しては、管理者はアレイに組み込まれているSecurity Assertion Markup Language（SAML）2.0の機能を使用できます。
+
+
+
+== 設定ワークフロー
+
+SAML設定は次のように行います。
+
+. Security Adminの権限を含むユーザ プロファイルでUnified Managerにログインします。
++
+[NOTE]
+====
+ `admin`ユーザには、System Managerのすべての機能へのフルアクセス権があります。
+
+====
+. 管理者は、アクセス管理の下にある *SAML* タブに移動します。
+. 管理者は、IDプロバイダー（IdP）との通信を設定します。IdPは、ユーザーから認証情報を要求し、ユーザーが正常に認証されたかどうかを判断するために使用される外部システムです。ストレージアレイとの通信を設定するには、管理者はIdPシステムからIdPメタデータファイルをダウンロードし、Unified Managerを使用してそのファイルをストレージアレイにアップロードします。
+. 管理者は、サービスプロバイダーとIdP間の信頼関係を確立します。サービスプロバイダはユーザー認可を制御します。この場合、ストレージアレイ内のコントローラがサービスプロバイダとして機能します。通信を設定するには、管理者はUnified Managerを使用して、コントローラ用のサービスプロバイダメタデータファイルをエクスポートします。管理者は、IdPシステムからメタデータファイルをIdPにインポートします。
++
+[NOTE]
+====
+管理者は、IdPが認証時に名前IDを返す機能をサポートしていることを確認する必要もあります。
+
+====
+. 管理者は、ストレージアレイのロールを、IdPで定義されたユーザ属性にマッピングします。これを行うには、管理者はUnified Managerを使用してマッピングを作成します。
+. IdP URLへのSSOログインをテストします。このテストで、ストレージ アレイとIdPが通信できることを確認します。
++
+[CAUTION]
+====
+SAMLを有効にすると、ユーザインターフェイスから無効にすることはできませんし、IdP設定を編集することもできません。SAML設定を無効化または編集する必要がある場合は、テクニカルサポートにお問い合わせください。
+
+====
+. Unified Managerから、ストレージ アレイのSAMLを有効にします。
+. ユーザが自身のSSOクレデンシャルを使用してシステムにログインします。
+
+
+
+
+== 管理
+
+SAML を使用して認証を行う場合、管理者は次の管理タスクを実行できます：
+
+* 新しいロール マッピングの変更または作成
+* Service Providerファイルのエクスポート
+
+
+
+
+== アクセス制限
+
+SAMLが有効な場合、ユーザはそのアレイのストレージを従来のStorage Managerのインターフェイスから検出または管理できません。
+
+また、次のクライアントはストレージ アレイのサービスとリソースにアクセスできません。
+
+* Enterprise Management Window（EMW）
+* コマンドライン インターフェイス（CLI）
+* ソフトウェア開発キット（SDK）クライアント
+* インバンド クライアント
+* HTTPベーシック認証REST APIクライアント
+* 標準のREST APIエンドポイントを使用したログイン
+

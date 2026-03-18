@@ -1,0 +1,37 @@
+---
+permalink: sm-settings/edit-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, email, addresses, alerts, 
+summary: Eメール アラートを受け取る受信者のEメール アドレスを変更できます。 
+---
+= SANtricity System Managerでアラート用のメールアドレスを編集
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Eメール アラートを受け取る受信者のEメール アドレスを変更できます。
+
+.開始する前に
+編集するEメールアドレスは、「アラート」ページの「Eメール」タブで定義されている必要があります。
+
+.手順
+. メニューの「設定」→「アラート」を選択します。
+. * Email * タブを選択します。
+. *Email Address*表から変更したいアドレスを選択し、右端にある*Edit*（鉛筆）アイコンをクリックします。
++
+行が編集可能になります。
+
+. 新しいアドレスを入力し、*保存*（チェックマーク）アイコンをクリックします。
++
+[NOTE]
+====
+変更をキャンセルする場合は、*Cancel*（X）アイコンを選択してください。
+
+====
+
+
+.結果
+アラートページの「メール」タブには、更新されたメールアドレスが表示されます。

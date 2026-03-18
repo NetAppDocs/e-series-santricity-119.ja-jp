@@ -1,0 +1,69 @@
+---
+permalink: sm-storage/overview-snapshots.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, snapshots 
+summary: Snapshot機能を使用すると、ストレージ アレイ ボリュームのポイントインタイム イメージを作成してバックアップまたはテストに使用できます。 
+---
+= SANtricity System Managerのスナップショットについて学ぶ
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot機能を使用すると、ストレージ アレイ ボリュームのポイントインタイム イメージを作成してバックアップまたはテストに使用できます。
+
+
+
+== Snapshotイメージとは何ですか?
+
+_スナップショット イメージ_は、特定のポイントインタイムで取得されたボリューム データの論理コピーです。リストア ポイントと同様に、スナップショット イメージを使用すると、既知の正常なデータ セットにロールバックできます。ホストはスナップショット イメージにアクセスできますが、直接読み書きすることはできません。
+
+詳細については、以下を参照してください。
+
+* link:how-snapshot-storage-works.html["Snapshotストレージの仕組み"]
+* link:snapshot-terminology.html["Snapshotに関する用語"]
+* link:base-volumes-reserved-capacity-and-snapshot-groups.html["ベース ボリューム、リザーブ容量、およびSnapshotグループ"]
+* link:snapshot-schedules-and-snapshot-consistency-groups.html["SnapshotスケジュールとSnapshot整合性グループ"]
+* link:snapshot-volumes.html["スナップショットボリューム"]
+
+
+
+
+== Snapshotを作成するにはどうすればよいですか?
+
+ベースボリュームまたはスナップショット整合性グループから、スナップショットイメージを手動で作成できます。この手順は、メニューからStorage[Snapshots]を選択して実行できます。
+
+詳細については、以下を参照してください。
+
+* link:requirements-and-guidelines-for-snapshots.html["Snapshotの要件とガイドライン"]
+* link:workflow-for-creating-snapshot-images-and-snapshot-volumes.html["SnapshotイメージとSnapshotボリュームの作成ワークフロー"]
+* link:create-snapshot-image.html["Snapshotイメージの作成"]
+* link:schedule-snapshot-images.html["Snapshotイメージのスケジュール設定"]
+* link:create-snapshot-consistency-group.html["Snapshot整合性グループの作成"]
+* link:create-snapshot-volume.html["Snapshotボリュームの作成"]
+
+
+
+
+== Snapshotからデータをロールバックするにはどうすればよいですか?
+
+_ロールバック_とは、ベースボリューム内のデータを以前のポイントインタイムの状態に戻すプロセスです。menu:Storage[Snapshots]からスナップショットデータをロールバックできます。
+
+詳細については、以下を参照してください。
+
+* link:snapshot-rollback.html["Snapshotのロールバック"]
+* link:start-snapshot-image-rollback-for-base-volume.html["ベース ボリュームのSnapshotイメージのロールバックの開始"]
+* link:start-snapshot-image-rollback-for-consistency-group-member-volumes.html["整合性グループ メンバーのSnapshotイメージのロールバックの開始"]
+
+
+
+
+== 関連情報
+
+Snapshotに関連するタスクの詳細については、以下を参照してください。
+
+* link:change-the-reserved-capacity-settings-for-a-snapshot-volume.html["Snapshotボリュームのリザーブ容量の変更"]
+* link:change-the-reserved-capacity-settings-for-a-snapshot-group.html["Snapshotグループのリザーブ容量の変更"]
+

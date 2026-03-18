@@ -1,0 +1,30 @@
+---
+permalink: um-certificates/export-certificates-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, export, certificates 
+summary: 証明書をエクスポートして詳細を確認することができます。 
+---
+= SANtricity Unified Managerで証明書をエクスポート
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+証明書をエクスポートして詳細を確認することができます。
+
+.開始する前に
+エクスポートしたファイルを開くには、証明書ビューア アプリケーションが必要です。
+
+.手順
+. * Certificate Management * を選択します。
+. 次のいずれかのタブを選択します。
++
+** *管理* -- Webサービスプロキシをホストしているシステムの証明書を表示します。管理証明書は、自己署名式または認証局（CA）による承認式のいずれかを選択できます。これにより、Unified Managerへの安全なアクセスが可能になります。
+** *信頼済み* -- Unified Manager がストレージ アレイやその他のリモート サーバー（LDAPサーバなど）にアクセスするために使用できる証明書を表示します。証明書は認証局（CA）から発行することも、自己署名することも可能です。
+
+
+. 証明書をページから選択し、行の最後にある省略記号をクリックします。
+. * Export * をクリックし、証明書ファイルを保存します。
+. 証明書ビューア アプリケーションでファイルを開きます。
+

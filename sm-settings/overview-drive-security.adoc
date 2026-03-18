@@ -1,0 +1,64 @@
+---
+permalink: sm-settings/overview-drive-security.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, system, security, key, management, 
+summary: セキュリティキーの管理は System ページから行えます。 
+---
+= SANtricity System Managerのドライブセキュリティについて学ぶ
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ドライブ セキュリティとキー管理は、[セキュリティ キー管理]ページで設定できます。
+
+
+
+== ドライブ セキュリティとは何ですか?
+
+_Drive Security_は、ストレージアレイから取り外されたセキュリティ対応ドライブ上のデータへの不正アクセスを防止する機能です。これらのドライブは、Full Disk Encryption（FDE）ドライブまたはFederal Information Processing Standard（FIPS）ドライブのいずれかです。FDEまたはFIPSドライブがアレイから物理的に取り外された場合、別のアレイにインストールされるまで動作せず、インストールされた時点で、正しいセキュリティキーが提供されるまで、ドライブはSecurity Locked状態になります。_セキュリティキー_とは、これらのタイプのドライブとストレージアレイ内のコントローラ間で共有される文字列のことです。
+
+詳細については、以下を参照してください。
+
+* link:how-the-drive-security-feature-works.html["ドライブ セキュリティ機能の仕組み"]
+* link:how-security-key-management-works.html["セキュリティ キー管理の仕組み"]
+* link:drive-security-terminology.html["ドライブ セキュリティの用語"]
+
+
+
+
+== キー管理を設定するにはどうすればよいですか?
+
+Drive Securityを実装するには、アレイにFDEドライブまたはFIPSドライブのいずれかがインストールされている必要があります。これらのドライブのキー管理を設定するには、メニューの「Settings」→「System」→「Security key management」に移動し、コントローラの永続メモリからの内部キー、またはキー管理サーバーからの外部キーを作成できます。最後に、ボリューム設定で「secure-capable」を選択することで、プールとボリュームグループのDrive Securityを有効にします。
+
+詳細については、以下を参照してください。
+
+* link:create-internal-security-key.html["内部セキュリティ キーの作成"]
+* link:create-external-security-key.html["外部セキュリティ キーの作成"]
+* link:../sm-storage/create-pool-manually.html["プールの手動作成"]
+* link:../sm-storage/create-volume-group.html["ボリュームグループを作成する"]
+
+
+
+
+== ドライブのロックを解除するにはどうすればよいですか?
+
+キー管理を設定したあとにセキュリティ有効ドライブをストレージ アレイ間で移動した場合、ドライブ上の暗号化データにアクセスできるようにするには、新しいストレージ アレイにセキュリティ キーを再度割り当てる必要があります。
+
+詳細については、以下を参照してください。
+
+* link:unlock-drives-using-an-internal-security-key.html["内部キー管理を使用する場合のドライブのロック解除"]
+* link:unlock-drives-using-an-external-security-key.html["外部キー管理を使用する場合のドライブのロック解除"]
+
+
+
+
+== 関連情報
+
+キー管理に関連するタスクの詳細については、以下を参照してください。
+
+* link:use-ca-signed-certificates-for-authentication-with-a-key-management-server.html["CA署名証明書を使用したキー管理サーバでの認証"]
+* link:back-up-security-key.html["セキュリティ キーのバックアップ"]
+

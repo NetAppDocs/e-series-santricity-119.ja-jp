@@ -1,0 +1,33 @@
+---
+permalink: sm-settings/view-nvme-over-fabrics-statistics-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, nvme, fabrics, statistics, 
+summary: ストレージ アレイへのNVMe over Fabrics接続に関するデータを表示できます。 
+---
+= SANtricity System ManagerでNVMe over Fabricsの統計を表示する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージ アレイへのNVMe over Fabrics接続に関するデータを表示できます。
+
+.タスク概要
+System Managerには、次のタイプのNVMe over Fabrics統計が表示されます。すべての統計は読み取り専用であり、設定することはできません。
+
+* *NVMeサブシステム統計* -- NVMeコントローラとそのキューの統計情報を表示します。NVMeコントローラは、ホストとストレージアレイ内の名前空間との間のアクセスパスを提供します。NVMeサブシステムの統計情報を確認することで、接続障害、リセット、シャットダウンなどの項目を把握できます。
+* *RDMAインターフェイス統計*：RDMAインターフェイス上のすべてのNVMe over Fabricsポートの統計情報を提供します。これには、各スイッチ ポートに関連付けられたパフォーマンス統計情報とリンクエラー情報が含まれます。このタブは、NVMe over Fabricsポートが利用可能な場合にのみ表示されます。
+
+
+これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。統計の生データは、コントローラの起動以降に収集されたすべての統計です。ベースライン統計は、ベースライン時間の設定以降に収集されたポイントインタイムの統計です。
+
+.手順
+. メニュー：Settings[System]を選択します。
+. *View NVMe over Fabrics Statistics*を選択します。
+. *オプション：* 基準値を設定するには、*Set new baseline*をクリックします。
++
+ベースラインを設定すると、統計を収集するための新しい開始ポイントが設定されます。すべてのNVMe統計に同じベースラインが使用されます。
+
+

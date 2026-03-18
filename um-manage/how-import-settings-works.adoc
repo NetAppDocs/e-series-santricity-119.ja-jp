@@ -1,0 +1,51 @@
+---
+permalink: um-manage/how-import-settings-works.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, import, settings, 
+summary: 'Unified Managerを使用して、1つのストレージ アレイから複数のストレージ アレイに設定をインポートできます。[設定のインポート]機能を使用して一括で処理すると、ネットワークの複数のアレイを設定する場合の時間を短縮できます。' 
+---
+= SANtricity Unified Managerでの複数のストレージアレイの設定について説明します
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity Unified Managerを使用すると、1つのストレージアレイから複数のストレージアレイに設定をインポートできます。設定のインポート機能は、ネットワーク内の複数のアレイを設定する必要がある場合に時間を節約できるバッチ処理機能です。
+
+
+
+== インポートできる設定
+
+複数のアレイにインポートできる設定は次のとおりです。
+
+* *アラート* -- 重要なイベントを管理者に送信するアラート方法（電子メール、syslogサーバ、またはSNMPサーバを使用）。
+* *AutoSupport* -- ストレージアレイの状態を監視し、テクニカルサポートに自動的に通知を送信する機能。
+* *ディレクトリサービス* -- LDAPサーバ（Lightweight Directory Access Protocol）およびMicrosoftのActive Directoryなどのディレクトリサービスを通じて管理されるユーザ認証の方法。
+* *ストレージ構成* -- 以下に関連する構成：
++
+** ボリューム（リポジトリ ボリュームでないシック ボリュームのみ）
+** ボリューム グループとプール
+** ホット スペア ドライブの割り当て
+
+
+* *システム設定* -- 以下に関する設定：
++
+** ボリュームのメディア スキャン設定
+** SSD設定
+** 自動ロード バランシング（ホスト接続レポートは含まれません）
+
+
+
+
+
+
+== 設定ワークフロー
+
+設定をインポートするワークフローは次のとおりです。
+
+. ソースとして使用するストレージ アレイで、System Managerを使用して設定を行います。
+. ターゲットとして使用するストレージ アレイで、System Managerを使用して設定をバックアップします。
+. Unified Managerから*管理*ページに移動し、設定をインポートします。
+. *Operations*ページから、Import Settings操作の結果を確認してください。
+

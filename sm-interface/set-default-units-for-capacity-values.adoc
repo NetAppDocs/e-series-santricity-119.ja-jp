@@ -1,0 +1,44 @@
+---
+permalink: sm-interface/set-default-units-for-capacity-values.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, capacity values 
+summary: System Managerは、容量値をギビバイト（GiB）またはテビバイト（TiB）のいずれかで表示できます。 
+---
+= SANtricity System Managerで容量値のデフォルト単位を設定します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Managerは、容量値をギビバイト（GiB）またはテビバイト（TiB）のいずれかで表示できます。
+
+設定はブラウザのローカルストレージに保存されるため、すべてのユーザーがそれぞれ独自の設定を持つことができます。
+
+.手順
+. メニューの「Preferences」→「Set preferences」を選択してください。
+. *Gibibytes*または*Tebibytes*のいずれかのラジオボタンをクリックし、操作を実行することを確認します。
++
+略語と値については、次の表を参照してください。
+
++
+[cols="1a,1a"]
+|===
+| 略語 | Value 
+
+
+ a| 
+GiB
+ a| 
+1,024^3^ バイト
+
+
+
+ a| 
+TiB
+ a| 
+1,024^4^ バイト
+
+|===
+

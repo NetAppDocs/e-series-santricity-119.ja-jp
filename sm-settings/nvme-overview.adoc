@@ -1,0 +1,48 @@
+---
+permalink: sm-settings/nvme-overview.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, nvme, 
+summary: 一部のコントローラには、NVMe（Non-Volatile Memory Express）over Fabricsを実装するためのポートが搭載されています。NVMeを使用すると、ホストとストレージ アレイの間でハイパフォーマンスな通信が実現します。 
+---
+= NVMeとSANtricityソフトウェアについて学ぶ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+一部のコントローラには、NVMe（Non-Volatile Memory Express）over Fabricsを実装するためのポートが搭載されています。NVMeを使用すると、ホストとストレージ アレイの間でハイパフォーマンスな通信が実現します。
+
+
+
+== NVMeとは何ですか？
+
+_NVM_は「不揮発性メモリ」の略で、多くの種類のストレージデバイスで使用される永続メモリです。_NVMe_（NVM Express）は、NVMデバイスとのハイパフォーマンスマルチキュー通信専用に設計された標準化されたインターフェースまたはプロトコルです。
+
+
+
+== NVMe over Fabricsとは
+
+_NVMe over Fabrics（NVMe-oF）_は、NVMeメッセージベースのコマンドとデータをホストコンピュータとストレージ間でネットワーク経由で転送できるようにする技術仕様です。NVMeストレージアレイ（_サブシステム_と呼ばれる）は、ファブリックを使用してホストからアクセスできます。NVMeコマンドは、ホスト側とサブシステム側の両方において、トランスポート抽象化レイヤー内で有効化され、カプセル化されています。これにより、ハイパフォーマンスNVMeインターフェースがホストからストレージまでエンドツーエンドで拡張され、コマンドセットが標準化および簡素化されます。
+
+NVMe-oFストレージは、ホストに対してローカルブロックストレージデバイスとして認識されます。ボリューム（_namespace_と呼ばれる）は、他のブロックストレージデバイスと同様に、ファイルシステムにマウントできます。REST API、SMcli、またはSANtricity System Managerを使用して、必要に応じてストレージをプロビジョニングできます。
+
+
+
+== NVMe Qualified Name（NQN）とは
+
+NVMe Qualified Name（NQN）は、リモート ストレージ ターゲットを識別するために使用します。ストレージ アレイのNVMe Qualified Nameは常にサブシステムによって割り当てられ、変更はできません。NVMe Qualified Nameはアレイ全体で1つです。NVMe Qualified Nameは最大223文字です。iSCSI Qualified Nameと比較してみてください。
+
+
+
+== ネームスペースおよびネームスペースIDとは
+
+ネームスペースはSCSIの論理ユニットに相当し、アレイ内のボリュームに関連付けられています。ネームスペースID（NSID）は、SCSIの論理ユニット番号（LUN）に相当します。NSIDはネームスペースの作成時に作成し、1~255の値を設定できます。
+
+
+
+== NVMeコントローラとは
+
+SCSI I_T nexus（ホストのイニシエータからストレージ システムのターゲットへのパス）と同様に、NVMeコントローラはホストの接続プロセス中に作成され、ホストとストレージ アレイ内のネームスペースの間のアクセス パスを提供します。NVMeコントローラはホストのNQNとホスト ポート識別子によって一意に識別されます。NVMeコントローラを関連付けできるのは単一のホストのみですが、NVMeコントローラは複数のネームスペースにアクセスできます。
+
+どのホストがどのネームスペースにアクセスできるかを設定し、SANtricity System Managerを使用してホストのネームスペースIDを設定します。次に、NVMeコントローラが作成されると、NVMeコントローラがアクセスできるネームスペースIDのリストが作成され、許可される接続の設定に使用されます。

@@ -1,0 +1,29 @@
+---
+permalink: sm-storage/cancel-pending-snapshot-image.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, cancel, pending, snapshot, image 
+summary: 保留中のSnapshotイメージを完了前にキャンセルすることができます。Snapshotは非同期的に作成され、作成が完了するまでSnapshotのステータスは「保留中」になります。Snapshotイメージの作成は、同期処理が完了するとすぐに完了します。 
+---
+= SANtricity System Manager で保留中のスナップショット イメージをキャンセルします
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+保留中のSnapshotイメージを完了前にキャンセルすることができます。Snapshotは非同期的に作成され、作成が完了するまでSnapshotのステータスは「保留中」になります。Snapshotイメージの作成は、同期処理が完了するとすぐに完了します。
+
+.タスク概要
+Snapshotイメージが保留状態になるのは、次の条件が同時に発生する場合です。
+
+* Snapshotグループのベース ボリュームまたはこのSnapshotイメージを格納する整合性グループの1個以上のメンバー ボリュームが非同期ミラー グループのメンバーである。
+* 現在、1個または複数のボリュームが非同期ミラーリングの同期処理中である。
+
+
+.手順
+. メニュー：Storage[Pools & Volume Groups]を選択します。
+. * Reserved Capacity * タブをクリックします。
+. 保留中のスナップショット イメージをキャンセルするスナップショット グループを選択し、メニューの「Uncommon Tasks」→「Cancel pending snapshot image」をクリックします。
+. 保留中のスナップショット イメージをキャンセルすることを確認するには、*はい*をクリックします。
+

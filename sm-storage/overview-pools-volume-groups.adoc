@@ -1,0 +1,64 @@
+---
+permalink: sm-storage/overview-pools-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pools, volume groups 
+summary: ストレージ アレイ内の未割り当てのドライブのサブセットから論理ストレージ容量を作成できます。この論理容量は、環境のニーズに応じてプールまたはボリューム グループとして作成できます。 
+---
+= SANtricity System Managerのプールとボリューム グループについて学ぶ
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージ アレイ内の未割り当てのドライブのサブセットから論理ストレージ容量を作成できます。この論理容量は、環境のニーズに応じてプールまたはボリューム グループとして作成できます。
+
+
+
+== プールおよびボリューム グループとは何ですか?
+
+_プール_とは、論理的にグループ化されたドライブの集合のことです。_ボリューム グループ_とは、共通の特性を持つボリュームを格納するコンテナです。ホストからアクセス可能なボリュームを作成するには、プールまたはボリューム グループのいずれかを使用できます。
+
+詳細については、以下を参照してください。
+
+* link:how-pools-and-volume-groups-work.html["プールとボリューム グループの仕組み"]
+* link:capacity-terminology.html["容量に関する用語"]
+* link:decide-to-use-a-pool-or-volume-group.html["プールとボリューム グループのどちらを使用するか"]
+
+
+
+
+== プールを作成するにはどうすればよいですか?
+
+System Managerがストレージアレイ内で未割り当ての容量を検出した際に、プールを自動的に作成するように設定できます。あるいは、自動作成で最適な構成を判断できない場合は、メニューの「Storage」→「Pools & Volume Groups」から手動でプールを作成できます。
+
+詳細については、以下を参照してください。
+
+* link:automatic-versus-manual-pool-creation.html["プールの自動作成と手動作成"]
+* link:create-pool-automatically.html["プールの自動作成"]
+* link:create-pool-manually.html["プールの手動作成"]
+* link:add-capacity-to-a-pool-or-volume-group.html["プールまたはボリューム グループへの容量の追加"]
+
+
+
+
+== ボリューム グループを作成するにはどうすればよいですか?
+
+メニューからボリューム グループを作成できます：Storage[Pools & Volume Groups]。
+
+詳細については、以下を参照してください。
+
+* link:create-volume-group.html["ボリューム グループの作成"]
+* link:add-capacity-to-a-pool-or-volume-group.html["プールまたはボリューム グループへの容量の追加"]
+
+
+
+
+== 関連情報
+
+プールとボリューム グループに関連する概念の詳細については、以下を参照してください。
+
+* link:how-reserved-capacity-works.html["リザーブ容量の仕組み"]
+* link:how-ssd-cache-works.html["SSDキャッシュの仕組み"]
+

@@ -1,0 +1,14 @@
+---
+permalink: sm-mirroring/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= SANtricity System Manager 11.9
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Managerを使用して、非同期ミラーリングと同期ミラーリングを管理できます。

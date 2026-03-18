@@ -1,0 +1,45 @@
+---
+indexpage:
+  title: SANtricity Unified Manager 7による複数のアレイ管理
+  summary: SANtricity ソフトウェアのドキュメントを参照することで、ストレージアレイのインストール、セットアップ、およびメンテナンスを行うことができます。
+  keywords: santricity, install, setup, maintain, storage array
+  lead: SANtricity ソフトウェアのドキュメントを参照することで、ストレージアレイのインストール、セットアップ、およびメンテナンスを行うことができます。
+  tiles:
+  - title: セットアップ
+    links:
+    - title: SANtricity Unified Managerインターフェイスの概要
+      url: "../um-admin/overview-interface-unified.html"
+    - title: 管理者パスワードの設定
+      url: "../um-admin/administrator-password-protection-unified.html"
+  - title: アレイの検出
+    links:
+    - title: 検出に関する考慮事項
+      url: "../um-manage/considerations-for-discovering-arrays.html"
+    - title: 単一のアレイ
+      url: "../um-manage/discover-single-array.html"
+    - title: 複数のアレイ
+      url: "../um-manage/discover-multiple-arrays.html"
+  - title: アレイの管理
+    links:
+    - title: ストレージ アレイ グループ
+      url: "../um-manage/overview-manage-groups.html"
+    - title: ストレージ アレイのステータス
+      url: "../um-manage/storage-array-status.html"
+    - title: ソフトウェアのアップグレード
+      url: "../um-manage/upgrade-controller-firmware.html"
+  - title: アクセスの管理
+    links:
+    - title: ユーザ アクセス
+      url: "../um-certificates/how-access-management-works-unified.html"
+    - title: 証明書
+      url: "../um-certificates/how-certificates-work-unified.html"
+    - title: ディレクトリ サービス
+      url: "../um-certificates/access-management-with-directory-services-unified.html"
+  - title: 設定の管理
+    links:
+    - title: 設定のインポート
+      url: "../um-manage/how-import-settings-works.html"
+    - title: パスワードの設定の変更
+      url: "../um-certificates/change-local-user-passwords-settings-unified.html"
+    - title: ディレクトリ サーバの設定の変更
+      url: "../um-certificates/edit-directory-server-settings-unified.html"

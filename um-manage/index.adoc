@@ -1,0 +1,14 @@
+---
+permalink: um-manage/index.html 
+sidebar: sidebar 
+keywords:  
+summary:  
+---
+= SANtricity Unified Manager 7
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity Unified Managerで使用される設定を指定することができます。

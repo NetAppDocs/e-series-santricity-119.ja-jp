@@ -1,0 +1,38 @@
+---
+permalink: sm-settings/reset-management-certificates.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, reset, management, certificates, 
+summary: コントローラの証明書をCA署名証明書から工場出荷時の自己署名証明書に戻すことができます。 
+---
+= SANtricity System Managerで管理証明書をリセットします
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+コントローラの証明書をCA署名証明書から工場出荷時の自己署名証明書に戻すことができます。
+
+.開始する前に
+* Security Adminの権限を含むユーザ プロファイルでログインする必要があります。そうしないと、証明書関連の機能は表示されません。
+* CA署名証明書を事前にインポートしておく必要があります。
+
+
+.タスク概要
+リセット機能では、現在のCA署名証明書ファイルを各コントローラから削除します。その後、コントローラでは自己署名証明書が再び使用されるようになります。
+
+.手順
+. メニュー：Settings[Certificates]を選択します。
+. 「アレイ管理」タブから*リセット*を選択します。
++
+[管理証明書のリセットの確認]ダイアログ ボックスが開きます。
+
+. フィールドに `reset`と入力し、*リセット*をクリックします。
++
+ブラウザをリフレッシュしたあとに、サイトがHTTP Strict Transport Securityを使用しているという理由でデスティネーション サイトへのアクセスがブロックされる場合があります。この状況は自己署名証明書に戻した場合に発生します。問題を解決するには、ブラウザから閲覧データを削除する必要があります。
+
+
+
+.結果
+コントローラで自己署名証明書が再び使用されるようになります。そのため、セッションの自己署名証明書を手動で承認するよう求められます。

@@ -1,0 +1,50 @@
+---
+permalink: sm-settings/access-management-tokens.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, tokens 
+summary: アクセストークンを使用すると、ユーザ名とパスワードを公開することなくアレイにアクセスできます。 
+---
+= アクセストークンと SANtricity ソフトウェアについて学ぶ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アクセス トークンは、REST APIまたはコマンドライン インターフェイス（CLI）で使用可能な、ユーザ名とパスワードを使用しない認証方式です。トークンは特定のユーザ（LDAPユーザを含む）に関連付けられており、一連の権限と有効期限が設定されています。
+
+
+
+== SAMLおよびJSONのWebトークン アクセス
+
+SAMLが有効になっているシステムでは、デフォルトで従来のコマンドライン ツールへのアクセスが許可されません。MFAワークフローは認証用にアイデンティティ プロバイダ サーバへのリダイレクトを必要とするため、 REST API と CLI は事実上動作しなくなります。そのため、System Managerでトークンを生成する必要があります。この場合、ユーザはMFA経由で認証される必要があります。
+
+
+NOTE: Webトークンを使用するためにSAMLを有効にする必要はありませんが、セキュリティの観点からSAMLが推奨されます。
+
+
+
+== トークンの作成と使用のワークフロー
+
+. System Managerでトークンを作成し、有効期限を指定します。
+. トークンのテキストをクリップボードにコピーするかファイルにダウンロードして、安全な場所に保存します。
+. 次の方法でトークンを使用します。
++
+** *REST API*：REST APIリクエストでトークンを使用するには、HTTPヘッダーをリクエストに追加します。例：
+`Authorization: Bearer _<access-token-value>_`
+** *セキュアCLI*：CLIでトークンを使用するには、コマンドラインにトークン値を追加するか、トークン値を含むファイルへのパスを使用します。例：
++
+*** コマンドライン上のトークン値： `-t _access-token-value_`
+*** トークン値を含むファイルへのパス： `-T _access-token-file_`
+
+
+
+
+
+
+詳細については、以下を参照してください。
+
+* link:access-management-tokens-create.html["アクセス トークンの作成"]
+* link:access-management-tokens-edit.html["アクセス トークンの編集"]
+* link:access-management-tokens-revoke.html["アクセス トークンの取り消し"]
+

@@ -1,0 +1,55 @@
+---
+permalink: sm-mirroring/overview-mirroring-async.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, ARVM, asynchronous, mirroring, firmware, 
+summary: 非同期ミラーリング機能は、ローカル ストレージ アレイとリモート ストレージ アレイの間のデータ レプリケーション用に、コントローラレベル、ファームウェアベースのメカニズムを提供します。 
+---
+= SANtricity ソフトウェアの非同期ミラーリングについて学ぶ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+非同期ミラーリング機能は、ローカル ストレージ アレイとリモート ストレージ アレイの間のデータ レプリケーション用に、コントローラレベル、ファームウェアベースのメカニズムを提供します。
+
+
+
+== 非同期ミラーリングとは何ですか?
+
+_非同期ミラーリング_は、特定の時点におけるプライマリ ボリュームの状態をキャプチャし、前回のイメージ キャプチャ以降に変更されたデータのみをコピーします。プライマリ サイトは即座に更新でき、セカンダリ サイトは帯域幅の許す限り更新できます。情報はキャッシュされ、ネットワーク リソースが利用可能になると後で送信されます。
+
+非同期ミラーリングはボリューム単位で作成されますが、グループ レベルで管理されます。そのため、個別のリモート ミラー ボリュームを、特定のストレージ アレイ上の任意のプライマリ ボリュームに関連付けることができます。このタイプのミラーリングはノンストップ オペレーションの要求に応えるための手段として最適であり、一般的には、定期的なプロセスをはるかに少ないネットワーク負荷で実施できます。
+
+詳細については、以下を参照してください。
+
+* link:how-asynchronous-mirroring-works.html["非同期ミラーリングの仕組み"]
+* link:asynchronous-terminology.html["非同期ミラーリングの用語"]
+* link:asynchronous-mirror-status.html["非同期ミラーのステータス"]
+* link:volume-ownership-sync.html["ボリューム所有権"]
+* link:role-change-of-a-mirror-consistency-group.html["ミラー整合性グループのロール変更"]
+
+
+
+
+== 非同期ミラーリングを設定するにはどうすればよいですか?
+
+アレイ間の最初のミラーリングは、Unified Managerを使用して設定する必要があります。設定後は、System Managerでミラー ペアと整合性グループを管理できます。
+
+詳細については、以下を参照してください。
+
+* link:requirements-for-using-asynchronous-mirroring.html["非同期ミラーリングを使用するための要件"]
+* link:workflow-for-mirroring-a-volume-asynchronously.html["ボリュームを非同期にミラーリングするためのワークフロー"]
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html["Create asynchronous mirrored pair（Unified Manager）"]
+
+
+
+
+== 関連情報
+
+非同期ミラーリングに関連する概念の詳細については、以下を参照してください。
+
+* link:what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html["ミラー整合性グループを作成するときは、どのような点に注意する必要がありますか?"]
+* link:asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html["ミラー ペアを作成するときは、どのような点に注意する必要がありますか?"]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html["非同期ミラーリングと同期ミラーリングの違いは何ですか?"]
+

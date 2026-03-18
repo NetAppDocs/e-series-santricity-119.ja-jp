@@ -1,0 +1,38 @@
+---
+permalink: um-certificates/view-local-user-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, view, local, user, roles 
+summary: 「ローカルユーザーロール」タブでは、ユーザーとデフォルトロールのマッピングを確認できます。これらのマッピングは、SANtricity Unified ManagerのWebサービスプロキシで適用されるRBAC（ロールベースのアクセス制御）の一部です。 
+---
+= ローカル ユーザ ロールの表示
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「ローカルユーザーロール」タブでは、ユーザーとデフォルトロールのマッピングを確認できます。これらのマッピングは、SANtricity Unified ManagerのWebサービスプロキシで適用されるRBAC（ロールベースのアクセス制御）の一部です。
+
+.開始する前に
+Security Adminの権限を含むユーザ プロファイルでログインする必要があります。そうしないと、アクセス管理の機能は表示されません。
+
+.タスク概要
+ユーザとマッピングは変更できません。変更できるのはパスワードのみです。
+
+.手順
+. *アクセス管理*を選択します。
+. *ローカルユーザーロール*タブを選択します。
++
+表にユーザが表示されます。
+
++
+** *admin* -- システム内のすべての機能にアクセスできるスーパー管理者。このユーザにはすべてのロールが含まれています。
+** *ストレージ* -- すべてのストレージ プロビジョニングを管理する管理者。このユーザには、ストレージ管理、サポート管理、および監視という役割が含まれています。
+** *security* -- アクセス管理や証明書管理を含むセキュリティ設定を担当するユーザ。このユーザには、Security AdminおよびMonitorのロールが含まれます。
+** *support* -- ハードウェアリソース、障害データ、ファームウェアのアップグレードを担当するユーザ。このユーザには、Support AdminとMonitorという役割が含まれています。
+** *monitor* -- システムへの読み取り専用アクセス権を持つユーザ。このユーザにはMonitorロールのみが含まれます。
+** *rw* （読み取り / 書き込み） -- このユーザには、Storage Admin、Support Admin、およびMonitorのロールが含まれます。
+** *ro* （読み取り専用） -- このユーザには Monitor ロールのみが含まれます。
+
+
+

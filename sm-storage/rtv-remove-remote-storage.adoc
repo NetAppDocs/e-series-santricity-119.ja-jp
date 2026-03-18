@@ -1,0 +1,34 @@
+---
+permalink: sm-storage/rtv-remove-remote-storage.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, remote, storage, 
+summary: インポート完了後に、ローカル デバイスとリモート デバイスの間でデータをコピーする必要がなくなった場合は、リモート ストレージ オブジェクトを削除できます。 
+---
+= SANtricity System Managerでリモートストレージオブジェクトを削除する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+インポート完了後に、ローカル デバイスとリモート デバイスの間でデータをコピーする必要がなくなった場合は、リモート ストレージ オブジェクトを削除できます。
+
+.開始する前に
+削除するリモート ストレージ オブジェクトにインポートが関連付けられていないことを確認します。
+
+.タスク概要
+リモート ストレージ オブジェクトを削除すると、ローカル デバイスとリモート デバイスの間の接続が削除されます。
+
+.手順
+. メニュー：Storage[Remote storage]を選択します。
+. 削除するリモート ストレージ オブジェクトをリストから選択します。
+. *削除*をクリックします。
++
+[リモート ストレージ接続の削除を確認]ダイアログ ボックスが表示されます。
+
+.  `remove`と入力し、*削除*をクリックして操作を確定します。
++
+選択したリモート ストレージ オブジェクトが削除されます。
+
+

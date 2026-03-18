@@ -1,0 +1,31 @@
+---
+permalink: sm-storage/create-workloads.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, create, workloads 
+summary: あらゆるタイプのアプリケーションのワークロードを作成できます。 
+---
+= SANtricity System Manager でワークロードを作成
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+あらゆるタイプのアプリケーションのワークロードを作成できます。
+
+.タスク概要
+ワークロードは、アプリケーションをサポートするストレージ オブジェクトです。ワークロード（インスタンス）はアプリケーションごとに1つ以上定義できます。
+
+.手順
+. メニュー：Storage[Volumes]を選択します。
+. メニューの「作成[Workload]」を選択してください。
++
+[アプリケーション ワークロードの作成]ダイアログ ボックスが表示されます。
+
+. ワークロードを作成するアプリケーションのタイプをドロップダウン リストから選択し、ワークロードの名前を入力します。
+. *作成*をクリックします。
+
+
+.終了後の操作
+作成したワークロードにストレージ容量を追加する準備が整いました。*Create Volume*オプションを使用して、アプリケーション用に1つまたは複数のボリュームを作成し、各ボリュームに特定の容量を割り当てます。

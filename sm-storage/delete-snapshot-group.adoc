@@ -1,0 +1,36 @@
+---
+permalink: sm-storage/delete-snapshot-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, group 
+summary: Snapshotグループの削除は、グループのデータを完全に削除してシステムから削除する場合に実行します。Snapshotグループを削除すると、リザーブ容量が解放され、プールやボリューム グループで再利用できるようになります。 
+---
+= SANtricity System Managerでスナップショットグループを削除する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotグループの削除は、グループのデータを完全に削除してシステムから削除する場合に実行します。Snapshotグループを削除すると、リザーブ容量が解放され、プールやボリューム グループで再利用できるようになります。
+
+.タスク概要
+Snapshotグループを削除すると、グループに含まれるSnapshotイメージもすべて削除されます。
+
+.手順
+. メニュー：Storage[Pools & Volume Groups]を選択します。
+. * Reserved Capacity * タブをクリックします。
+. 削除するスナップショットグループを選択し、メニューの「Uncommon Tasks」→「Delete snapshot group」をクリックします。
++
+「スナップショットグループの削除の確認」ダイアログボックスが表示されます。
+
+.  `delete`と入力して確認します。
+
+
+.結果
+System Manager は以下の操作を実行します。
+
+* Snapshotグループに関連付けられているすべてのSnapshotイメージを削除します。
+* Snapshotグループのイメージに関連付けられているSnapshotボリュームを無効化します。
+* Snapshotグループ用のリザーブ容量を削除します。
+

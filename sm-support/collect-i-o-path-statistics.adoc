@@ -1,0 +1,35 @@
+---
+permalink: sm-support/collect-i-o-path-statistics.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, collect, i/o path, statistics 
+summary: I/Oパス統計のファイルを保存し、分析用にテクニカル サポートに送信できます。 
+---
+= SANtricity System Managerで入出力パス統計情報を収集する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+I/Oパス統計のファイルを保存し、分析用にテクニカル サポートに送信できます。
+
+.タスク概要
+テクニカル サポートは、I/Oパスの統計情報をパフォーマンス問題の診断に使用します。アプリケーション パフォーマンスの問題は、メモリの利用率や、CPU利用率、ネットワーク遅延、I/Oレイテンシなどの問題が原因の可能性があります。I/Oパス統計はサポート データの収集時に自動的に収集されますが、手動で収集することもできます。また、AutoSupportを有効にしている場合は自動的に収集されてテクニカル サポートに送信されます。
+
+I/Oパス統計の収集を確定すると、I/Oパス統計のカウンタはリセットされます。あとで収集処理をキャンセルした場合でもカウンタはリセットされます。また、コントローラがリセット（リブート）した場合もカウンタがリセットされます。
+
+[NOTE]
+====
+この処理は、テクニカル サポートから指示があった場合にのみ実行してください。
+
+====
+.手順
+. メニューの「Support」→「Support Center」→「Diagnostics」タブを選択します。
+. *I/Oパス統計情報を収集する*を選択します。
+. 操作を実行することを確認するには、 `collect`と入力し、*Collect*をクリックします。
++
+ファイルは、ブラウザのダウンロードフォルダにファイル名 `io-path-statistics.7z`で保存されます。
+
+. テクニカル サポートからの指示に従ってファイルを送信します。
+

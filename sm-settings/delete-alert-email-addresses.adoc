@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/delete-alert-email-addresses.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, mail, server, email, addresses, alerts, 
+summary: 以前に定義したメール サーバを削除して、アラートがEメール アドレスに送信されないようにすることができます。また、個々のEメール アドレスを削除することもできます。 
+---
+= SANtricity System Managerでアラート用のメールサーバまたはEメールアドレスを削除
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+以前に定義したメール サーバを削除して、アラートがEメール アドレスに送信されないようにすることができます。また、個々のEメール アドレスを削除することもできます。
+
+.手順
+. メニューの「設定」→「アラート」を選択します。
+. * Email * タブを選択します。
+. 表から次のいずれかを実行します。
++
+** メール サーバを削除してアラートがEメール アドレスに送信されないようにするには、メール サーバの行を選択します。
+** アラートが送信されないようにメールアドレスを削除するには、削除したいメールアドレスの行を選択してください。表の右上にある*削除*ボタンが選択可能になります。
+
+
+. *Delete*をクリックし、操作を確定してください。
+

@@ -1,0 +1,27 @@
+---
+permalink: sm-settings/turn-on-storage-array-locator-lights.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, locator, lights, 
+summary: キャビネット内のストレージ アレイの物理的な場所を特定するために、ストレージ アレイのロケーター（LED）ライトを点灯できます。 
+---
+= SANtricity System Managerでストレージアレイロケーターライトをオンにする
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+キャビネット内のストレージ アレイの物理的な場所を特定するために、ストレージ アレイのロケーター（LED）ライトを点灯できます。
+
+.手順
+. メニュー：Settings[System]を選択します。
+. *General*で、*Turn on Storage Array Locator Lights*をクリックします。
++
+「ストレージ アレイ ロケータ ライトをオンにする」ダイアログ ボックスが開き、対応するストレージ アレイのロケータ ライトが点灯します。
+
+. ストレージアレイの物理的な位置を確認したら、ダイアログボックスに戻り、*オフにする*を選択します。
+
+
+.結果
+ロケーター ライトが消灯してダイアログ ボックスが閉じます。

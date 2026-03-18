@@ -1,0 +1,48 @@
+---
+permalink: sm-settings/configure-syslog-server-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, syslog, server, alerts, 
+summary: syslogアラートを設定するには、syslogサーバのアドレスとUDPポートを入力する必要があります。最大で5台のsyslogサーバを指定できます。 
+---
+= SANtricity System Managerでアラート用のsyslogサーバーを設定する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+syslogアラートを設定するには、syslogサーバのアドレスとUDPポートを入力する必要があります。最大で5台のsyslogサーバを指定できます。
+
+.開始する前に
+* syslogサーバのアドレスを確認しておく必要があります。このアドレスは、完全修飾ドメイン名、IPv4アドレス、またはIPv6アドレスのいずれかで指定できます。
+* syslogサーバのUDPポート番号を確認しておく必要があります。通常は514です。
+
+
+.タスク概要
+このタスクでは、syslogサーバのアドレスとポートを入力し、入力したアドレスをテストする方法について説明します。
+
+.手順
+. メニューの「設定」→「アラート」を選択します。
+. *Syslog*タブを選択します。
++
+syslogサーバがまだ定義されていない場合、[アラート]ページに「syslog サーバの追加」と表示されます。
+
+. * Add Syslog Servers * をクリックします。
++
+[syslogサーバの追加]ダイアログ ボックスが開きます。
+
+. 1つ以上のsyslogサーバーの情報を入力し（最大5台）、*追加*をクリックします。
++
+** *サーバアドレス* -- 完全修飾ドメイン名、IPv4アドレス、またはIPv6アドレスを入力します。
+** *UDPポート* -- 通常、syslogのUDPポートは514です。この表には、設定済みのsyslogサーバーが表示されます。
+
+
+. サーバアドレスにテストアラートを送信するには、* Test All Syslog Servers *を選択します。
+
+
+.結果
+イベントモニタは、アラート可能なイベントが発生するたびに syslog サーバにアラートを送信します。監査ログの syslog 設定をさらに設定するには、 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-audit-logs.html["監査ログ用のsyslogサーバの設定"]を参照してください。
+
+
+NOTE: 複数のsyslogサーバが設定されている場合は、設定されているすべてのsyslogサーバに監査ログが送信されます。

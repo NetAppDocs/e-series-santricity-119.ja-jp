@@ -1,0 +1,58 @@
+---
+indexpage:
+  title: SANtricity ソフトウェア11.9のドキュメント
+  summary: SANtricity System ManagerとUnified Manager
+  keywords: santricity, all-flash arrays, heavy workload applications, video surveillance,
+    data analytics
+  lead: SANtricity ソフトウェア11.9では、データ分析、ビデオ監視、バックアップおよびリカバリなどの高負荷アプリケーション向けに、EシリーズハイブリッドフラッシュアレイおよびEFシリーズオールフラッシュアレイの最高のパフォーマンスと利用率を実現できます。
+  tiles:
+  - title: はじめに
+    links:
+    - title: SANtricity System Managerインターフェイス
+      url: /sm-interface/overview-interface-sam.html"
+    - title: SANtricity Unified Managerインターフェイス
+      url: "/um-admin/overview-interface-unified.html"
+    - title: SANtricityソフトウェアのデータシート
+      url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf
+  - title: Eシリーズのドキュメント
+    links:
+    - title: Eシリーズ システムのドキュメント
+      url: https://docs.netapp.com/us-en/e-series/index.html
+    - title: コマンドライン インターフェイス（CLI）リファレンス
+      url: https://docs.netapp.com/us-en/e-series-cli/index.html
+  - title: SANtricity API
+    links:
+    - title: Webサービス
+      url: https://docs.netapp.com/us-en/e-series/web-services-proxy/index.html
+    - title: vCenter向けプラグイン
+      url: https://docs.netapp.com/us-en/e-series/vcenter-plugin/san-spvc-ic-overview.html
+    - title: SMI-Sプロバイダ
+      url: https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208
+  - title: パフォーマンス アプリケーションとアドオン
+    links:
+    - title: SANtricity App for Splunk Enterprise
+      url: https://splunkbase.splunk.com/app/1932/
+    - title: Splunk Technology Add-On for SANtricity
+      url: https://splunkbase.splunk.com/app/1933/
+    - title: EシリーズとGrafanaを使用したパフォーマンス分析ツール
+      url: https://github.com/NetApp/eseries-perf-analyzer
+    - title: E-Series Performance Analyzerに関するブログ
+      url: https://blog.netapp.com/monitoring-netapp-eseries
+  - title: SE向け
+    links:
+    - title: Eシリーズ / EFシリーズ向け技術トレーニング（ログインが必要）
+      url: https://fieldportal.netapp.com/content/199944
+    - title: EF300の概要と技術的な詳細（ログインが必要）
+      url: https://fieldportal.netapp.com/content/1417672
+    - title: NetApp Fusion（ログインが必要）
+      url: https://fusion.netapp.com/
+  - title: ツールとサポート
+    links:
+    - title: NetApp Interoperability Matrix
+      url: http://mysupport.netapp.com/matrix/
+    - title: NetAppのナレッジ ベース
+      url: https://kb.netapp.com/
+    - title: Active IQ（ログインが必要）
+      url: https://activeiq.netapp.com/?source=aiqnsspage
+    - title: Eシリーズ / SANtricityのダウンロード（ログインが必要）
+      url: https://mysupport.netapp.com/site/downloads#E

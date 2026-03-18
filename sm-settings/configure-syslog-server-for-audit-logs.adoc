@@ -1,0 +1,53 @@
+---
+permalink: sm-settings/configure-syslog-server-for-audit-logs.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, syslog, server, audit, logs, 
+summary: 監査ログを外部のsyslogサーバにアーカイブする場合は、そのサーバとストレージ アレイの間の通信を設定できます。接続が確立されると、以降は監査ログが自動的にsyslogサーバに保存されます。 
+---
+= SANtricity System Managerで監査ログ用のsyslogサーバーを設定する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+監査ログを外部のsyslogサーバにアーカイブする場合は、そのサーバとストレージ アレイの間の通信を設定できます。接続が確立されると、以降は監査ログが自動的にsyslogサーバに保存されます。
+
+.開始する前に
+* Security Adminの権限を含むユーザ プロファイルでログインする必要があります。そうしないと、アクセス管理の機能は表示されません。
+* syslogサーバのアドレス、プロトコル、およびポート番号を確認しておく必要があります。サーバ アドレスは、完全修飾ドメイン名、IPv4アドレス、またはIPv6アドレスのいずれかで指定できます。
+* サーバがセキュアなプロトコル（TLSなど）を使用している場合は、ローカル システムに認証局（CA）証明書が配置されている必要があります。CA証明書がWebサイトの所有者を識別することにより、サーバとクライアントの間のセキュアな接続が確立されます。
+
+
+.手順
+. メニューの「設定」→「アクセス管理」を選択します。
+. 「監査ログ」タブから * syslogサーバの設定 * を選択します。
++
+[syslogサーバの設定]ダイアログ ボックスが開きます。
+
+. *[追加]*をクリックします。
++
+[syslogサーバの追加]ダイアログ ボックスが開きます。
+
+. サーバの情報を入力し、*追加*をクリックします。
++
+** *サーバアドレス* -- 完全修飾ドメイン名、IPv4アドレス、またはIPv6アドレスを入力します。
+** *プロトコル* -- ドロップダウンリストからプロトコルを選択します（例：TLS、UDP、TCP）。
+** *証明書のアップロード（オプション）* -- TLSプロトコルを選択し、署名済みのCA証明書をまだアップロードしていない場合は、*参照*をクリックして証明書ファイルをアップロードしてください。監査ログは、信頼できる証明書のないsyslogサーバにはアーカイブされません。
++
+[NOTE]
+====
+証明書が後から無効になった場合、TLSハンドシェイクは失敗します。その結果、監査ログにエラーメッセージが記録され、メッセージはsyslogサーバに送信されなくなります。この問題を解決するには、syslogサーバ上の証明書を修正してから、メニュー：Settings[Audit Log > Configure Syslog Servers > Test All]に移動する必要があります。
+
+====
+** *ポート* -- syslog受信機のポート番号を入力してください。*追加*をクリックすると、syslogサーバの設定ダイアログボックスが開き、設定済みのsyslogサーバがページに表示されます。
+
+
+. ストレージアレイとのサーバ接続をテストするには、*すべてテスト*を選択します。
+
+
+.結果
+設定後、すべての新しい監査ログはsyslogサーバに送信されます。以前のログは転送されません。アラートのsyslog設定をさらに設定するには、 https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-alerts.html["アラート用のsyslogサーバの設定"]を参照してください。
+
+ NOTE: If multiple syslog servers are configured, all configured syslog servers will receive an audit log.

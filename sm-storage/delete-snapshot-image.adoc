@@ -1,0 +1,39 @@
+---
+permalink: sm-storage/delete-snapshot-image.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, image 
+summary: Snapshotイメージの削除は、SnapshotグループまたはSnapshot整合性グループから最も古いSnapshotイメージをクリーンアップする場合に行います。 
+---
+= SANtricity System Managerでスナップショット画像を削除する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotイメージの削除は、SnapshotグループまたはSnapshot整合性グループから最も古いSnapshotイメージをクリーンアップする場合に行います。
+
+.タスク概要
+Snapshotイメージは単独で削除できるほか、作成時のタイムスタンプが同じ複数のSnapshotイメージをSnapshot整合性グループから削除することもできます。また、SnapshotグループからSnapshotイメージを削除することもできます。
+
+削除できるのは、関連付けられているベース ボリュームまたはSnapshot整合性グループの最も古いSnapshotイメージだけです。
+
+.手順
+. メニュー：Storage[Snapshots]を選択します。
+. * Snapshot Images * タブをクリックします。
+. 削除するSnapshotイメージを選択し、処理を確定します。
++
+Snapshot整合性グループのSnapshotイメージを選択した場合は、削除する各メンバー ボリュームを選択し、処理を確定します。
+
+. *削除*をクリックします。
+
+
+.結果
+System Manager は以下の操作を実行します。
+
+* ストレージ アレイからSnapshotイメージが削除されます。
+* SnapshotグループまたはSnapshot整合性グループ内で再利用できるようにリザーブ容量が解放されます。
+* 削除したSnapshotイメージに関連付けられていたSnapshotボリュームがすべて無効化されます。
+* Snapshot整合性グループから削除した場合は、削除したSnapshotイメージに関連付けられていたメンバー ボリュームの状態が停止に変わります。
+

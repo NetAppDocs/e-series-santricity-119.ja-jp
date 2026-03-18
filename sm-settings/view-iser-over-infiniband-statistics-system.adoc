@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/view-iser-over-infiniband-statistics-system.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, iser, over, infiniBand, statistics, 
+summary: ストレージ アレイのコントローラに iSER over InfiniBand ポートが含まれている場合、ホスト接続に関するデータを表示できます。 
+---
+= SANtricity System Manager で iSER over InfiniBand の統計を表示します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージ アレイのコントローラにiSER over InfiniBandポートが搭載されている場合は、ホスト接続に関するデータを表示できます。
+
+.タスク概要
+System Managerには、次のタイプのiSER over InfiniBand統計が表示されます。すべての統計は読み取り専用であり、設定することはできません。
+
+* *ローカルターゲット（プロトコル）統計* -- InfiniBand上のiSERターゲットに関する統計情報を提供します。これは、ストレージ メディアへのブロックレベルのアクセスを示します。
+* *iSERオーバーInfiniBandインターフェイス統計* -- InfiniBandインターフェイス上のすべてのiSERポートの統計情報を提供します。これには、各スイッチ ポートに関連付けられたパフォーマンス統計とリンクエラー情報が含まれます。
+
+
+これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。統計の生データは、コントローラの起動以降に収集されたすべての統計です。ベースライン統計は、ベースライン時間の設定以降に収集されたポイントインタイムの統計です。
+
+.手順
+. メニュー：Settings[System]を選択します。
+. *View iSER over InfiniBand Statistics*を選択します。
+. タブをクリックして、さまざまな統計を表示します。
+. *オプション：* 基準値を設定するには、*Set new baseline*をクリックします。
++
+ベースラインを設定すると、統計を収集するための新しい開始ポイントが設定されます。すべてのiSER over InfiniBand統計に同じベースラインが使用されます。
+
+

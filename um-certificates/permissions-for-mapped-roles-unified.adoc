@@ -1,0 +1,24 @@
+---
+permalink: um-certificates/permissions-for-mapped-roles-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, permissions, mapped, roles 
+summary: RBAC（ロールベースアクセス制御）機能には、1つ以上のロールがマッピングされた事前定義済みユーザが含まれます。各ロールには、SANtricity Unified Managerのタスクにアクセスするための権限が含まれています。 
+---
+= マッピングされたロールの権限
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+RBAC（ロールベースアクセス制御）機能には、1つ以上のロールがマッピングされた事前定義済みユーザが含まれます。各ロールには、SANtricity Unified Managerのタスクにアクセスするための権限が含まれています。
+
+各ロールは、次のタスクへのアクセスを提供します。
+
+* * Storage admin * -- アレイ上のストレージオブジェクトへの完全な読み取り / 書き込みアクセスが可能ですが、セキュリティ設定へのアクセスはできません。
+* *セキュリティ管理者* -- アクセス管理および証明書管理のセキュリティ設定へのアクセス。
+* *サポート管理者* -- ストレージアレイ上のすべてのハードウェアリソース、障害データ、およびMELイベントへのアクセス。ストレージオブジェクトやセキュリティ設定へのアクセス権はありません。
+* *Monitor* -- すべてのストレージオブジェクトへの読み取り専用アクセスが可能ですが、セキュリティ構成へのアクセスはできません。
+
+
+ユーザに特定の機能に対する権限がない場合、その機能は選択できない状態になるか、ユーザ インターフェイスに表示されません。

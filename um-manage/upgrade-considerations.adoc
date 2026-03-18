@@ -1,0 +1,42 @@
+---
+permalink: um-manage/upgrade-considerations.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, upgrade, considerations 
+summary: Unified Managerを使用して複数のストレージ アレイをアップグレードする場合に、計画段階で確認が必要な考慮事項を以下に記載します。 
+---
+= SANtricity Unified Managerを使用した複数のストレージアレイのアップグレードについて学ぶ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity Unified Managerを使用して複数のストレージアレイをアップグレードする前に、計画の一環として重要な考慮事項を確認してください。
+
+
+
+== 現在のバージョン
+
+検出された各ストレージ アレイについて、Unified Managerの[管理]ページでSANtricity OSの現在のバージョンを確認できます。バージョンは、[SANtricity OSソフトウェア]列に表示されます。各行のSANtricity OSのバージョンをクリックするとポップアップ ダイアログ ボックスが表示され、コントローラのファームウェアとNVSRAMの情報を確認できます。
+
+
+
+== アップグレードが必要な他のコンポーネント
+
+アップグレード プロセスの一環として、ホストがコントローラと正しく連携するように、ホストのマルチパス / フェイルオーバー ドライバやHBAドライバのアップグレードも必要になることがあります。
+
+互換性情報については、 https://imt.netapp.com/matrix/#welcome["NetApp Interoperability Matrix"^]を参照してください。また、お使いのオペレーティングシステムに対応したエクスプレスガイドの手順も参照してください。エクスプレスガイドは https://docs.netapp.com/us-en/e-series/index.html["EシリーズおよびSANtricityのドキュメント"^]から入手できます。
+
+
+
+== デュアル コントローラ
+
+ストレージ アレイにコントローラが2台あり、マルチパス ドライバがインストールされている場合は、アップグレードの実行中もストレージ アレイでI/Oの処理を継続できます。アップグレードのプロセスは次のとおりです。
+
+. コントローラAのすべてのLUNがコントローラBにフェイルオーバーされます。
+. コントローラAでアップグレードが実行されます。
+. コントローラAにLUNが戻され、コントローラBのLUNもすべて移されます。
+. コントローラBでアップグレードが実行されます。
+
+
+アップグレードの完了後、所有権のある正しいコントローラにボリュームが配置されるように、コントローラ間で手動でのボリュームの再配置が必要になることがあります。

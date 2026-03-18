@@ -1,0 +1,28 @@
+---
+permalink: um-manage/storage-array-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, storage, array, groups 
+summary: 一連のストレージ アレイを1つのグループにまとめて物理インフラや仮想インフラを管理することができます。ストレージ アレイをグループ化すると、ジョブの監視やレポートが簡単になります。 
+---
+= SANtricity Unified ManagerのストレージアレイグループについてSANtricity Unified Managerで学ぶ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+一連のストレージ アレイを1つのグループにまとめて物理インフラや仮想インフラを管理することができます。ストレージ アレイをグループ化すると、ジョブの監視やレポートが簡単になります。
+
+
+
+== ストレージ アレイ グループのタイプ
+
+* *全グループ*
++
+[すべて]は、デフォルトのグループであり、組織で検出されたすべてのストレージ アレイが含まれます。[すべて]グループにはメイン ビューからアクセスできます。
+
+* *ユーザーが作成したグループ*
++
+ユーザが作成したグループには、そのグループに追加するように手動で選択したストレージ アレイが含まれます。ユーザが作成したグループにはメイン ビューからアクセスできます。
+
+

@@ -1,0 +1,24 @@
+---
+permalink: um-manage/delete-storage-array-group.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, delete, storage, array, group 
+summary: 不要になった1つ以上のストレージ アレイ グループを削除することができます。 
+---
+= SANtricity Unified Manager でストレージアレイグループを削除する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+不要になった1つ以上のストレージ アレイ グループを削除することができます。
+
+.タスク概要
+この処理で削除されるのは、ストレージ アレイ グループだけです。削除したグループに関連付けられているストレージ アレイには、[すべて管理]ビューや関連付けられている他のグループから引き続きアクセスできます。
+
+.手順
+. 管理ページから、メニューの「グループの管理」→「ストレージアレイグループの削除」を選択します。
+. 削除するストレージ アレイ グループを1つ以上選択します。
+. *削除*をクリックします。
+

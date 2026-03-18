@@ -1,0 +1,67 @@
+---
+indexpage:
+  title: SANtricity System Manager 11.9による単一アレイ管理
+  summary: SANtricity ソフトウェアのドキュメントを参照することで、ストレージアレイのインストール、セットアップ、およびメンテナンスを行うことができます。
+  keywords: santricity, install, setup, maintain, storage array
+  lead: SANtricity ソフトウェアのドキュメントを参照することで、ストレージアレイのインストール、セットアップ、およびメンテナンスを行うことができます。
+  tiles:
+  - title: アレイのセットアップ
+    links:
+    - title: 初期セットアップ
+      url: "../sm-interface/setup-wizard-overview.html"
+    - title: 管理者のパスワード
+      url: "../sm-interface/administrator-password-protection.html"
+    - title: アラート
+      url: "../sm-settings/how-alerts-work.html"
+    - title: AutoSupport
+      url: "../sm-support/autosupport-feature-overview.html"
+  - title: ストレージの作成
+    links:
+    - title: プール
+      url: "../sm-storage/create-pool-manually.html"
+    - title: ボリューム グループ
+      url: "../sm-storage/create-volume-group.html"
+    - title: SSDキャッシュ
+      url: "../sm-storage/create-ssd-cache.html"
+    - title: ボリューム
+      url: "../sm-storage/create-volumes.html"
+  - title: ハードウェアの管理
+    links:
+    - title: シェルフ
+      url: "../sm-hardware/hardware-page-overview.html"
+    - title: コントローラ
+      url: "../sm-hardware/controller-states.html"
+    - title: システムの
+      url: "../sm-hardware/drive-states.html"
+    - title: 証明書
+      url: "../sm-settings/how-certificates-work-sam.html"
+  - title: ミラーリング、Snapshot、リモート ストレージ
+    links:
+    - title: 非同期ミラーリング
+      url: "../sm-mirroring/how-asynchronous-mirroring-works.html"
+    - title: 同期ミラーリング
+      url: "../sm-mirroring/how-synchronous-mirroring-works.html"
+    - title: Snapshotストレージ
+      url: "../sm-storage/overview-snapshots.html"
+    - title: リモート ストレージ
+      url: "../sm-storage/rtv-how-remote-storage-works.html"
+  - title: 診断
+    links:
+    - title: サポート データの収集
+      url: "../sm-support/collect-support-data-manually.html"
+    - title: アップグレード エラーの確認
+      url: "../sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+    - title: 問題の通知
+      url: "../sm-interface/problem-notification.html"
+    - title: 実行中の処理
+      url: "../sm-interface/view-and-act-on-operations-in-progress.html"
+  - title: リカバリとイベント
+    links:
+    - title: 読み取り不能セクター ログ
+      url: "../sm-support/view-unreadable-sectors-log.html"
+    - title: Recovery Guru
+      url: "../sm-interface/recover-from-problems-using-recovery-guru.html"
+    - title: イベント ログ
+      url: "../sm-support/overview-event-log.html"
+    - title: リカバリ サポート ファイル
+      url: "../sm-support/retrieve-recovery-support-files.html"

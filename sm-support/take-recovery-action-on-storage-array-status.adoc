@@ -1,0 +1,14 @@
+---
+permalink: sm-support/take-recovery-action-on-storage-array-status.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, take, recovery, action, storage, array, status 
+summary: 読み取り不能セクターのログを確認し、ドライブ ポートを再度有効にし、リカバリ モードをクリアすることで、現在のストレージ アレイのステータスに対応できます。 
+---
+= SANtricity System Managerでストレージアレイのステータスに対するリカバリ処理を実行する
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+読み取り不能セクターのログの確認、ドライブ ポートの再有効化、およびリカバリ モードのクリアを行うことにより、現在のストレージ アレイのステータスに応じた操作を実行できます。

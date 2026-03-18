@@ -1,0 +1,30 @@
+---
+permalink: sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, unsynchronized, data, mirror, consistency, groups, 
+summary: ローカル ストレージ アレイとリモート ストレージ アレイ上のミラー整合性グループ間で同期されていないデータの量を表示できます。ミラー整合性グループが非同期ステータスの場合は、ミラーリング アクティビティが実行されません。 
+---
+= SANtricity System Managerでミラー整合性グループ間の同期されていないデータ量を表示する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ローカル ストレージ アレイとリモート ストレージ アレイ上のミラー整合性グループ間で同期されていないデータの量を表示できます。ミラー整合性グループが非同期ステータスの場合は、ミラーリング アクティビティが実行されません。
+
+.タスク概要
+このタスクは、選択したミラー整合性グループにミラー ペアが含まれている場合や、同期が実行中でない場合に行うことができます。
+
+.手順
+. メニュー：Storage[Asynchronous Mirroring]を選択します。
+. *Mirror Consistency Groups*タブを選択します。
++
+[ミラー整合性グループ]の表に、ストレージ アレイに関連付けられているすべてのミラー整合性グループが表示されます。
+
+. メニューをクリックします：その他［同期されていないデータ量を表示］。
++
+同期されていないデータが存在する場合は、テーブルの値に反映されます。データ量の列には、同期されていないデータの量がMiB単位で表示されます。
+
+

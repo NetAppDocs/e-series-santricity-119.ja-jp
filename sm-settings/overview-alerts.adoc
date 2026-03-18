@@ -1,0 +1,50 @@
+---
+permalink: sm-settings/overview-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, Alerts, 
+summary: System Managerでは、ストレージ アレイのアラートをEメール、SNMPトラップ、syslogメッセージで送信するように設定できます。 
+---
+= SANtricity System Managerのアラートについて学ぶ
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Managerを設定して、Eメール、SNMPトラップ、syslogメッセージでストレージアレイアラートを送信できます。
+
+
+
+== アラートとは何ですか?
+
+_アラート_は、ストレージアレイで発生した重要なイベントについて管理者に通知します。イベントには、バッテリ障害、コンポーネントが最適からオフラインに移行、コントローラの冗長性エラーなどの問題が含まれます。すべての重大イベントは、一部の警告イベントおよび情報イベントとともに、「アラート対象」とみなされます。
+
+詳細については、以下を参照してください。
+
+* link:how-alerts-work.html["アラートの仕組み"]
+* link:alerts-terminology.html["アラートの用語"]
+
+
+
+
+== アラートを設定するにはどうすればよいですか?
+
+アラートは、1つ以上のEメールアドレスへのメッセージ、SNMPサーバへのSNMPトラップ、またはsyslogサーバへのメッセージとして送信されるように設定できます。アラート設定は、menu:Settings[Alerts]から使用できます。
+
+詳細については、以下を参照してください。
+
+* link:configure-mail-server-and-recipients-for-alerts.html["メール サーバとアラートの受信者の設定"]
+* link:configure-syslog-server-for-alerts.html["アラート用のsyslogサーバの設定"]
+* link:configure-snmp-alerts.html["SNMPアラートの設定"]
+
+
+
+
+== 関連情報
+
+アラートに関連する概念の詳細については、以下を参照してください。
+
+* link:../sm-support/overview-event-log.html["イベント ログの概要"]
+* link:why-are-timestamps-inconsistent-between-the-array-and-alerts.html["一致しないタイムスタンプ"]
+

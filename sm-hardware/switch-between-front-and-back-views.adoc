@@ -1,0 +1,30 @@
+---
+permalink: sm-hardware/switch-between-front-and-back-views.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, switch, front, back, views, shelves 
+summary: '[ハードウェア]ページでは、シェルフの前面ビューまたは背面ビューを表示できます。' 
+---
+= SANtricity System Managerで前面図と背面図を表示
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+[ハードウェア]ページでは、シェルフの前面ビューまたは背面ビューを表示できます。
+
+.タスク概要
+背面ビューにはコントローラ / IOMおよび電源 / ファン キャニスターが表示されます。前面ビューにはドライブが表示されます。
+
+.手順
+. *ハードウェア*を選択します。
+. グラフィックにドライブが表示されている場合は、*Controllers & Components*タブをクリックしてください。
++
+図の表示が切り替わり、ドライブではなくコントローラが表示されます。
+
+. グラフィックにコントローラが表示されている場合は、*ドライブ*タブをクリックします。
++
+図の表示が切り替わり、コントローラではなくドライブが表示されます。
+
+. 必要に応じて、ページ下部にある*Show all front*または*Show all back*を選択することもできます。
+

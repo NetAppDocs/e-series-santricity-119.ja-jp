@@ -1,0 +1,34 @@
+---
+permalink: sm-storage/remove-member-volumes-from-a-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remove, member volume, snapshot, consistency group 
+summary: 既存のSnapshot整合性グループからメンバー ボリュームを削除できます。 
+---
+= SANtricity System Managerでスナップショット整合性グループからメンバーボリュームを削除します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+既存のSnapshot整合性グループからメンバー ボリュームを削除できます。
+
+.タスク概要
+Snapshot整合性グループからメンバー ボリュームを削除すると、System Managerは、そのメンバー ボリュームに関連付けられているSnapshotオブジェクトを自動的に削除します。
+
+.手順
+. メニュー：Storage[Snapshots]を選択します。
+. * Snapshot Consistency Groups * タブをクリックします。
+. 変更するSnapshot整合性グループを、横にあるプラス記号（+）をクリックして展開します。
+. 削除するメンバーボリュームを選択し、*削除*をクリックします。
+. 操作を実行することを確認したら、*削除*をクリックしてください。
+
+
+.結果
+System Manager は以下の操作を実行します。
+
+* メンバー ボリュームに関連付けられているSnapshotイメージとSnapshotボリュームをすべて削除します。
+* メンバー ボリュームに関連付けられているSnapshotグループを削除します。
+* これ以外の方法でメンバー ボリュームが変更または削除されることはありません。
+

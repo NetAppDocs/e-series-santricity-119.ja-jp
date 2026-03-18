@@ -1,0 +1,44 @@
+---
+permalink: sm-storage/overview-remote-storage.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, remote, storage 
+summary: リモート ストレージ機能が有効になっている場合は、リモート システムからデータをインポートできます。 
+---
+= SANtricity System Managerのリモート ストレージ機能について説明します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+リモート ストレージ機能が搭載されている場合、リモート ストレージ システムからストレージ アレイにデータをインポートできます。
+
+
+
+== リモート ストレージ機能とは何ですか?
+
+_Remote Storage_機能を使用すると、リモート ストレージ システムからローカルEシリーズ ストレージ システムにデータをインポートできます。リモート システムは、別のEシリーズ システムまたは別のベンダーのシステムにすることができます。この機能は、機器のアップグレード時など、ダウンタイムを最小限に抑えながらデータ移行を効率化したい場合に役立ちます。
+
+
+NOTE: リモート ストレージを使用するには、この機能をサブモデルID（SMID）で有効にする必要があります。
+
+詳細については、以下を参照してください。
+
+* link:rtv-how-remote-storage-works.html["リモート ストレージの仕組み"]
+* link:rtv-terminology.html["リモート ストレージに関する用語"]
+* link:rtv-remote-storage-requirements.html["リモート ストレージの要件"]
+* link:rtv-remote-storage-volume-requirements.html["リモート ストレージ ボリュームの要件"]
+
+
+
+
+== この機能でデータをインポートするにはどうすればよいですか?
+
+リモートストレージウィザードを使用して、リモートストレージデバイス（データインポートのソース）をEシリーズ システムのターゲットボリュームにマッピングします。このウィザードは、メニューの「ストレージ」→「リモートストレージ」から利用できます。
+
+詳細については、以下を参照してください。
+
+* link:rtv-import-remote-storage.html["リモート ストレージのインポート"]
+* link:rtv-manage-progress-of-remote-volume-import.html["データ インポートの進捗管理"]
+

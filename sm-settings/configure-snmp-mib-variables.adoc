@@ -1,0 +1,56 @@
+---
+permalink: sm-settings/configure-snmp-mib-variables.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, snmp, mib, variables, 
+summary: SNMPアラートの設定では、必要に応じて、SNMPトラップに表示される管理情報ベース（MIB）変数を設定することができます。これらの変数で、ストレージ アレイの名前、場所、および担当者を返すことができます。 
+---
+= SANtricity System ManagerでのSNMP MIB変数の設定
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SNMPアラートの設定では、必要に応じて、SNMPトラップに表示される管理情報ベース（MIB）変数を設定することができます。これらの変数で、ストレージ アレイの名前、場所、および担当者を返すことができます。
+
+.開始する前に
+SNMPサービス アプリケーションがあるサーバにMIBファイルをコピーしてコンパイルしておく必要があります。
+
+MIBファイルがない場合は、次の方法で入手できます。
+
+*  https://mysupport.netapp.com/site/global/dashboard["NetAppサポート"^]に進みます。
+* *ダウンロード*をクリックし、*ダウンロード*を選択します。
+* *Eシリーズ SANtricity OS Controller Software* をクリックします。
+* *Download Latest Release*を選択します。
+* ログインします。
+* 注意事項を確認してライセンス契約に同意します。
+* 下にスクロールしてコントローラ タイプに対応するMIBファイルを見つけ、リンクをクリックしてファイルをダウンロードします。
+
+
+.タスク概要
+このタスクでは、SNMPトラップ用のMIB変数を定義する方法について説明します。これらの変数は、SNMP GetRequestsに応答して以下の値を返すことができます：
+
+* `sysName`（ストレージアレイの名前）
+* `sysLocation`（ストレージアレイの場所）
+* `sysContact`（管理者の名前）
+
+
+.手順
+. メニューの「設定」→「アラート」を選択します。
+. * SNMP *タブを選択します。
+. * Configure SNMP MIB Variables * を選択します。
++
+SNMP MIB変数の設定ダイアログボックスが開きます。
+
+. 以下の値を1つ以上入力し、*保存*をクリックします。
++
+** *名前* -- MIB変数の値 `sysName`。たとえば、ストレージアレイの名前を入力します。
+** *場所* -- MIB変数の値 `sysLocation`。たとえば、ストレージアレイの場所を入力します。
+** *連絡先* -- MIB変数 `sysContact`の値。たとえば、ストレージアレイを担当する管理者を入力します。
+
+
+
+
+.結果
+これらの値はストレージ アレイのアラートのSNMPトラップ メッセージに表示されます。

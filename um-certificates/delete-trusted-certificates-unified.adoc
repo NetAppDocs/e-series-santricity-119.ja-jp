@@ -1,0 +1,41 @@
+---
+permalink: um-certificates/delete-trusted-certificates-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, delete, trusted, certificates 
+summary: 期限切れになった証明書など、不要になった証明書を削除することができます。 
+---
+= SANtricity Unified Managerで信頼済み証明書を削除する
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+期限切れになった証明書など、不要になった証明書を削除することができます。
+
+.開始する前に
+古い証明書を削除する前に新しい証明書をインポートします。
+
+[CAUTION]
+====
+ルート証明書または中間証明書を削除する場合は、同じ証明書ファイルが共有されていることがあるため、複数のストレージ アレイに影響する可能性があることに注意してください。
+
+====
+.手順
+. * Certificate Management * を選択します。
+. *Trusted*タブを選択します。
+. 表から1つ以上の証明書を選択し、*削除*をクリックします。
++
+[NOTE]
+====
+プリインストールされている証明書に対しては、*Delete*機能は利用できません。
+
+====
++
+[信頼された証明書の削除の確認]ダイアログ ボックスが開きます。
+
+. 削除を確認し、* Delete * をクリックします。
++
+証明書が表から削除されます。
+
+

@@ -1,0 +1,31 @@
+---
+permalink: sm-storage/resume-snapshot-image-rollback.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, resume, snapshot, image, rollback 
+summary: Snapshotイメージのロールバック処理中にエラーが発生した場合は、処理が自動的に一時停止します。一時停止状態のロールバック処理を再開することができます。 
+---
+= SANtricity System Managerでスナップショット イメージのロールバックを再開します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotイメージのロールバック処理中にエラーが発生した場合は、処理が自動的に一時停止します。一時停止状態のロールバック処理を再開することができます。
+
+.手順
+. メニュー：Storage[Snapshots]を選択します。
+. * Snapshot Images * タブをクリックします。
+. 一時停止中のロールバックをハイライト表示し、メニューから「Rollback[Resume]」を選択します。
++
+処理が再開されます。
+
+
+
+.結果
+System Manager は以下の操作を実行します。
+
+* ロールバック処理が正常に再開された場合は、進行中の処理ウィンドウでロールバック処理の進行状況を確認できます。
+* ロールバック処理が失敗すると、処理は再び一時停止します。Recovery Guruの手順に従って問題を修正するか、テクニカル サポートにお問い合わせください。
+

@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, workflow, create, snapshot, images, snapshot, volumes 
+summary: System Managerでは、次の手順でSnapshotイメージとSnapshotボリュームを作成します。 
+---
+= SANtricity System Managerでスナップショット イメージとスナップショット ボリュームを作成する方法
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Managerでは、以下の手順に従ってSnapshotイメージとSnapshotボリュームを作成できます。
+
+
+
+== Snapshotイメージの作成ワークフロー
+
+image::../media/sam1130-flw-snapshots-create-ss-images.gif[スナップショット イメージ作成ワークフロー]
+
+
+
+== Snapshotボリュームの作成ワークフロー
+
+image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[スナップショットボリュームの作成ワークフロー]

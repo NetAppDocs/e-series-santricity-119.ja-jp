@@ -1,0 +1,36 @@
+---
+permalink: sm-storage/thin-volume-monitoring.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, thin, volume, monitoring 
+summary: シン ボリュームのスペースを監視して適切なアラートを生成し、容量不足が発生するのを回避できます。 
+---
+= SANtricityソフトウェアのシンボリューム監視について学ぶ
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+シン ボリュームのスペースを監視して適切なアラートを生成し、容量不足が発生するのを回避できます。
+
+シンプロビジョニング環境では、基盤となる物理ストレージ容量よりも多くの論理領域を割り当てることができます。menu:Storage[Volumes > Thin Volume Monitoring]タブを選択すると、割り当てられた最大容量制限に達する前に、シンボリュームがどれだけ増加したかを監視できます。
+
+Thin Monitoring ビューでは、以下の操作を実行できます：
+
+* シン ボリュームを自動的に拡張可能な（割り当て容量を制限する）上限を定義します。
+* シン ボリュームが割り当て容量の上限に近付いたときに[ホーム]ページの[通知]領域にアラート（警告しきい値の超過）が送信される割合を設定します。
+
+
+シン ボリュームの容量を拡張するには、レポート容量を拡張してください。
+
+[NOTE]
+====
+System Managerには、シン ボリュームを作成するオプションはありません。シン ボリュームを作成するにはコマンドライン インターフェイス（CLI）を使用します。
+
+====
+[NOTE]
+====
+EF600/EF600CまたはEF300/EF300Cストレージシステムでは、シンボリュームは使用できません。
+
+====

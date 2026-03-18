@@ -1,0 +1,28 @@
+---
+permalink: sm-settings/edit-syslog-servers-for-alerts.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, syslog, servers, alerts, 
+summary: syslogアラートの受信に使用するサーバ アドレスを編集できます。 
+---
+= SANtricity System Managerでアラート用のsyslogサーバーを編集
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+syslogアラートの受信に使用するサーバ アドレスを編集できます。
+
+.手順
+. メニューの「設定」→「アラート」を選択します。
+. *Syslog*タブを選択します。
+. 表から syslog サーバーアドレスを選択し、右端にある *編集* （鉛筆）アイコンをクリックします。
++
+行が編集可能になります。
+
+. サーバーアドレスとUDPポート番号を編集し、*保存*（チェックマーク）アイコンをクリックしてください。
+
+
+.結果
+更新されたサーバ アドレスが表に表示されます。

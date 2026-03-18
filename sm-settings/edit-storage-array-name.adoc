@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/edit-storage-array-name.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, edit, storage array, name, 
+summary: SANtricity System Managerのタイトルバーに表示されるストレージアレイ名を変更できます。 
+---
+= SANtricity System Managerでストレージアレイ名を編集
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity System Managerのタイトルバーに表示されるストレージアレイ名を変更できます。
+
+.手順
+. メニュー：Settings[System]を選択します。
+. *General* で、*Name:* フィールドを探します。
++
+ストレージ アレイ名が定義されていない場合は、このフィールドに「不明」と表示されます。
+
+. ストレージアレイ名の横にある*編集*（鉛筆）アイコンをクリックします。
++
+フィールドを編集できるようになります。
+
+. 新しい名前を入力します。
++
+名前には、文字、数字、および特殊文字であるアンダースコア（_）、ダッシュ（-）、ハッシュ記号（#）を含めることができます。名前にスペースを含めることはできません。名前の最大長は30文字です。名前は一意である必要があります。
+
+. *保存*（チェックマーク）アイコンをクリックします。
++
+[NOTE]
+====
+変更を加えずに編集可能なフィールドを閉じたい場合は、*Cancel*（X）アイコンをクリックしてください。
+
+====
+
+
+.結果
+新しい名前は SANtricity System Manager のタイトルバーに表示されます。

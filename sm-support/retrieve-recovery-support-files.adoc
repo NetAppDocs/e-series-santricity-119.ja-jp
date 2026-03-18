@@ -1,0 +1,44 @@
+---
+permalink: sm-support/retrieve-recovery-support-files.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, retrieve, recovery, support files 
+summary: テクニカル サポートは、リカバリ サポート ファイルを使用して問題のトラブルシューティングを行うことができます。System Managerではこれらのファイルが自動的に保存されます。 
+---
+= SANtricity System Managerでリカバリサポートファイルを取得する
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+テクニカルサポートは、リカバリサポートファイルを使用して問題のトラブルシューティングを行うことができます。SANtricity System Managerはこれらのファイルを自動的に保存します。
+
+.開始する前に
+トラブルシューティング用の追加ファイルを送信するようテクニカル サポートから依頼されます。
+
+.タスク概要
+リカバリ サポート ファイルには以下のタイプのファイルが含まれます。
+
+* サポート データ ファイル
+* AutoSupport履歴
+* AutoSupportログ
+* SAS / RLS診断ファイル
+* リカバリ プロファイル データ
+* データベース キャプチャ ファイル
+
+
+.手順
+. メニューの「Support」→「Support Center」→「Diagnostics」タブを選択します。
+. *Retrieve Recovery Support Files* を選択します。
++
+ダイアログボックスには、ストレージアレイが収集したすべてのリカバリサポートファイルが一覧表示されます。特定のファイルを検索するには、いずれかの列を並べ替えるか、*Filter*ボックスに文字を入力してください。
+
+. ファイルを選択し、*ダウンロード*をクリックします。
++
+ブラウザのDownloadsフォルダにファイルが保存されます。
+
+. 追加ファイルを保存する必要がある場合は、前の手順を繰り返します。
+. *閉じる* をクリックします。
+. テクニカル サポートからの指示に従ってファイルを送信します。
+
