@@ -21,7 +21,7 @@ summary: System Managerでは、一般的なアレイ設定やアドオン機能
 アレイ設定には以下のものがあります。
 
 * link:cache-settings-and-performance.html["キャッシュの設定とパフォーマンス"]
-* link:automatic-load-balancing-overview.html"["自動ロード バランシング"]
+* link:automatic-load-balancing-overview.html["自動ロード バランシング"]
 * link:how-add-on-features-work.html["アドオン機能"]
 * link:overview-drive-security.html["ドライブ セキュリティ"]
 

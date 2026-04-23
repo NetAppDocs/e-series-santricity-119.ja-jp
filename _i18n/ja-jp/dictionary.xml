@@ -4061,7 +4061,6 @@
   <block id="329b059dca9192ebf68525b6d3e3be44" category="inline-link-macro">キャッシュの設定とパフォーマンス</block>
   <block id="9f6081850e27326c653ce13711fd1f40" category="list-text"><block ref="9f6081850e27326c653ce13711fd1f40" category="inline-link-macro-rx"></block></block>
   <block id="590d98531a06e067582f8f395c25ea9d" category="inline-link-macro">自動ロード バランシング</block>
-  <block id="3d92225d2ee8c33ffe2c15361da54d2f" category="list-text"><block ref="3d92225d2ee8c33ffe2c15361da54d2f" category="inline-link-macro-rx"></block></block>
   <block id="b07d4a5fc9bdc2d9e09fffa5409bbab4" category="inline-link-macro">アドオン機能</block>
   <block id="d9c3b504b15a55277f52a60d4aa86148" category="list-text"><block ref="d9c3b504b15a55277f52a60d4aa86148" category="inline-link-macro-rx"></block></block>
   <block id="919e659946b3b7994ecf9004d9cea4f8" category="inline-link-macro">ドライブ セキュリティ</block>
@@ -9041,4 +9040,5 @@
   <block id="5c85f810a14707d96b0f78941732e14a" category="list-text">同期ミラーリングの場合、特定のストレージ アレイでサポートされるボリュームの数に制限があります。お使いのストレージ アレイに設定されているボリュームの数がサポートされている制限よりも少ないことを確認してください。同期ミラーリングがアクティブな場合は、作成済みの2個のリザーブ容量ボリュームがボリュームの制限に含まれます。</block>
   <block id="2c0d7cdf55bdb12e152430a4a5b9c7e5" category="paragraph">非同期ミラーリングの場合：</block>
   <block id="f6082ab3e1c76ce4a981259403dbffb2" category="paragraph">同期ミラーリングの場合：</block>
+  <block id="bc7dec44af17b73eb800d426c3a75c9f" category="list-text"><block ref="bc7dec44af17b73eb800d426c3a75c9f" category="inline-link-macro-rx"></block></block>
 </blocks>
