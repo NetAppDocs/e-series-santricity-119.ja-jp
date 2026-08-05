@@ -16,6 +16,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[how-does-asynchronous-mirroring-differ-from-synchronous-mirroring]]
 == 非同期ミラーリングと同期ミラーリングの違いは何ですか?
 
 非同期ミラーリング機能が同期ミラーリング機能と本質的に違う点は、非同期ミラーリングは特定の時点におけるソース ボリュームの状態をキャプチャし、前回のイメージ キャプチャ以降に変更されたデータのみをコピーする点です。
@@ -112,6 +113,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 |===
 
 
+[[synchronous-mirroring-why-dont-i-see-all-my-volumes]]
 == 同期ミラーリング - ボリュームが一部表示されないのはなぜですか?
 
 ミラー ペアのプライマリ ボリュームを選択すると、対応するすべてのボリュームのリストが表示されます。
@@ -125,6 +127,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array]]
 == 同期ミラーリング - リモート ストレージ アレイのボリュームが一部表示されないのはなぜですか?
 
 リモート ストレージ アレイ上のセカンダリ ボリュームを選択すると、そのミラー ペアに対応するすべてのボリュームのリストが表示されます。
@@ -144,6 +147,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair]]
 == 同期ミラーリング - ミラー ペアを作成するときは、どのような点に注意する必要がありますか?
 
 ミラーペアは SANtricity Unified Manager インターフェイスで設定し、SANtricity System Manager でペアを管理します。
@@ -163,6 +167,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[what-impact-does-synchronization-priority-have-on-synchronization-rates]]
 == 同期の優先順位は同期速度にどのような影響を与えますか？
 
 同期優先度は、システム パフォーマンスに対して同期アクティビティにどれだけの処理時間を割り当てるかを定義します。
@@ -224,6 +229,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[why-is-it-recommended-to-use-a-manual-synchronization-policy]]
 == 手動同期ポリシーの使用が推奨されるのはなぜですか?
 
 手動での再同期を推奨します。なぜなら、手動での再同期を行うことで、データ復旧の可能性を最大限に高める方法で再同期プロセスを管理できるからです。

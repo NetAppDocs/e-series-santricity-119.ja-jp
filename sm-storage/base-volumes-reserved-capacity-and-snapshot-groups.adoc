@@ -15,6 +15,7 @@ Snapshot機能は、ベース ボリューム、リザーブ容量、およびSn
 
 
 
+[[base-volumes]]
 == ベース ボリューム
 
 _ベース ボリューム_ は、Snapshot イメージのソースとして使用されるボリュームです。ベース ボリュームには、シック ボリュームまたはシン ボリュームのいずれかを使用でき、プールまたはボリューム グループのいずれかに配置できます。
@@ -29,6 +30,7 @@ image::../media/sam1130-dwg-snapshots-images-overview.gif[Snapshot オブジェ�
 
 
 
+[[reserved-capacity-and-snapshot-groups]]
 == リザーブ容量とSnapshotグループ
 
 System Managerは、Snapshotイメージを_Snapshotグループ_に編成します。System ManagerがSnapshotグループを確立すると、グループのSnapshotイメージを保持し、追加のSnapshotに対する以降の変更を追跡するために、関連する_リザーブ容量_が自動的に作成されます。
@@ -43,6 +45,7 @@ Snapshotグループに対するユーザの操作は必要ありませんが、
 
 
 
+[[auto-deletion]]
 == 自動削除
 
 Snapshotを使用する場合は、デフォルト オプションを使用して自動削除を有効にしてください。Snapshotグループの制限値である32個のイメージに達すると、自動削除によって最も古いSnapshotイメージが自動的に削除されます。自動削除を無効にすると、最終的にはSnapshotグループの制限値を超えるため、Snapshotグループの設定とリザーブ容量の管理を手動で行わなければならなくなります。

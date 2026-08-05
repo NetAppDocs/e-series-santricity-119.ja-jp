@@ -41,6 +41,7 @@ System Managerには、次のタイプのiSCSI統計が表示されます。す�
 
 
 
+[[mac-transmit-and-mac-receive-statistics]]
 == MAC転送およびMAC受信の統計
 
 イーサネットMAC統計を選択すると、受信と送信の両方の統計が表示されます。これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。
@@ -273,6 +274,7 @@ CSE
 ====
 
 
+[[ethernet-tcpip-statistics]]
 == イーサネットTCP/IP統計
 
 イーサネットTCP / IP統計を選択すると、TCPとIPの両方の統計が表示されます。これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。
@@ -463,6 +465,7 @@ DRE-TOC
 ====
 
 
+[[iscsi-target-statistics-and-local-initiator-statistics]]
 == iSCSIターゲットとローカル イニシエータの統計
 
 ターゲット（プロトコル）統計またはローカル イニシエータ（プロトコル）統計を選択すると、iSCSI統計が表示されます。これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。
@@ -547,6 +550,7 @@ UCT
 ====
 
 
+[[dcbx-operational-state-statistics]]
 == DCBX動作状態統計
 
 Data Center Bridging Exchange（DCBX）動作状態統計を選択すると、DCBX統計が表示されます。
@@ -606,6 +610,7 @@ NOTE: これらに加え、状態キャプチャ ファイルで追加のDCBX動
 
 
 
+[[lldp-tlv-statistics]]
 == LLDP TLV統計
 
 Link Layer Discovery Protocol（LLDP）Type Length Value（TLV）統計を選択すると、2組の統計（ローカル デバイスとリモート デバイスそれぞれに1組）が表示されます。ローカル デバイスはコントローラを指します。リモート デバイスは、コントローラの接続先のピア デバイスのことで、通常はスイッチです。
@@ -665,6 +670,7 @@ NOTE: その他のLLDP TLV統計は、状態キャプチャ ファイルで確�
 
 
 
+[[dcbx-tlv-statistics]]
 == DCBX TLV統計
 
 [Data Center Bridging Exchange (DCBX) Type Length Value (TLV) Statistics]を選択すると、次の統計が表示されます。

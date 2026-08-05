@@ -15,6 +15,7 @@ SANtricity Unified ManagerでAccess Managementを使用してユーザ認証を�
 
 
 
+[[configuration-workflow]]
 == 設定ワークフロー
 
 アクセス管理設定は次のように行います。
@@ -47,6 +48,7 @@ SANtricity Unified ManagerでAccess Managementを使用してユーザ認証を�
 
 
 
+[[functions-available-in-unified-manager]]
 == Unified Managerで利用可能な機能
 
 アクセスできる機能は、ユーザに割り当てられたロールによって次のように異なります。

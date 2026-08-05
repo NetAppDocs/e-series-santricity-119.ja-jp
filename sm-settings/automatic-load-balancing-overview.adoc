@@ -23,6 +23,7 @@ summary: 自動ロード バランシング機能を使用すると、負荷の�
 
 
 
+[[enabling-and-disabling-automatic-load-balancing]]
 == 自動ロード バランシングの有効化と無効化
 
 自動ロード バランシングは、すべてのストレージ アレイ上でデフォルトで有効に設定されています。
@@ -35,6 +36,7 @@ summary: 自動ロード バランシング機能を使用すると、負荷の�
 
 
 
+[[host-types-that-support-the-automatic-load-balancing-feature]]
 == 自動ロード バランシング機能をサポートするホスト タイプ
 
 自動ロード バランシングを有効にするのはストレージ アレイ レベルですが、ホストまたはホスト クラスタに選択したホスト タイプがこの機能の動作に直接影響します。
@@ -82,6 +84,7 @@ VMware
 
 
 
+[[verifying-os-compatibility-with-the-automatic-load-balancing-feature]]
 == 自動ロード バランシング機能とOSの互換性の確認
 
 新しいシステムを設定（または既存のシステムを移行）する前に、自動ロード バランシング機能とOSとの互換性を確認します。

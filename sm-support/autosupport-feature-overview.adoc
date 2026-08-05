@@ -19,6 +19,7 @@ AutoSupportデータには、ストレージアレイの構成、状態、パフ
 
 
 
+[[key-benefits]]
 == 主なメリット
 
 AutoSupport機能の主なメリットは次のとおりです。
@@ -33,6 +34,7 @@ AutoSupport機能の主なメリットは次のとおりです。
 
 
 
+[[individual-autosupport-features]]
 == 個々のAutoSupport機能
 
 AutoSupport機能は、個別に有効にする3つの機能で構成されています。
@@ -44,6 +46,7 @@ AutoSupport機能は、個別に有効にする3つの機能で構成されて�
 
 
 
+[[difference-between-autosupport-and-collect-support-data]]
 == AutoSupportと[サポート データの収集]の違い
 
 ストレージ アレイでは、次の2つの方法でサポート データを収集できます。

@@ -16,6 +16,7 @@ summary: テクニカルサポートから依頼される可能性のある診�
 
 
 
+[[what-support-tasks-are-available]]
 == どのようなサポート タスクを実行できますか?
 
 テクニカル サポートの連絡先の表示、診断の実行、AutoSupportの設定、イベント ログの表示、ソフトウェア アップグレードの実行が可能です。
@@ -29,6 +30,7 @@ summary: テクニカルサポートから依頼される可能性のある診�
 
 
 
+[[how-do-i-contact-technical-support]]
 == テクニカル サポートに連絡するにはどうすればよいですか?
 
 メイン ページから、menu:Support[Support Center > Support Resources tab]をクリックします。技術サポートの連絡先情報は、インターフェイスの右上に記載されています。

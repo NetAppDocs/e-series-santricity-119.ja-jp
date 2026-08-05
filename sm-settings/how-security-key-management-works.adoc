@@ -24,6 +24,7 @@ summary: ドライブ セキュリティ機能を実装する場合、セキュ�
 
 
 
+[[internal-key-management]]
 == 内部キー管理
 
 内部キーは、コントローラの永続メモリ上のアクセス不可能な場所に保持され、「`hidden`」されます。内部鍵管理を実装するには、以下の手順を実行します：
@@ -37,6 +38,7 @@ summary: ドライブ セキュリティ機能を実装する場合、セキュ�
 
 
 
+[[external-key-management]]
 == 外部キー管理
 
 外部キーは、Key Management Interoperability Protocol（KMIP）を使用して別のキー管理サーバに保持されます。外部キー管理を実装するには、次の手順を実行します。

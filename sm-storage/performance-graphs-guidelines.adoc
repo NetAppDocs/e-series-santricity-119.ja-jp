@@ -30,6 +30,7 @@ summary: パフォーマンスページには、ストレージアレイのパ�
 
 
 
+[[characteristics-of-performance-data-formats]]
 == パフォーマンス データ形式の特徴
 
 [cols="1a,1a,1a,1a,1a"]
@@ -93,6 +94,7 @@ summary: パフォーマンスページには、ストレージアレイのパ�
 |===
 
 
+[[guidelines-for-viewing-performance-data]]
 == パフォーマンス データの表示に関するガイドライン
 
 * パフォーマンス データの収集は常にオンです。オフにするオプションはありません。

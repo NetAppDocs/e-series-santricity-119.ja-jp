@@ -23,6 +23,7 @@ Snapshot整合性グループを作成するプロセスは複数の手順で構
 
 
 
+[[step-1-add-members-to-snapshot-consistency-group]]
 == ステップ1：Snapshot Consistency Groupにメンバーを追加する
 
 メンバーを選択し、Snapshot整合性グループを構成する一連のボリュームを指定します。Snapshot整合性グループに対して実行するすべての操作は、選択したすべてのメンバー ボリュームに対して一様に実行されます。
@@ -43,6 +44,7 @@ Snapshot整合性グループを作成するプロセスは複数の手順で構
 
 
 
+[[step-2-reserve-capacity-for-snapshot-consistency-group]]
 == ステップ2：Snapshotコンシステンシグループの容量を確保する
 
 予約済みの容量をスナップショット整合性グループに関連付けます。System Managerは、スナップショット整合性グループのプロパティに基づいて、ボリュームと容量を提案します。推奨される予約容量構成を受け入れるか、割り当てられるストレージをカスタマイズすることができます。
@@ -74,6 +76,7 @@ Snapshot整合性グループを作成するプロセスは複数の手順で構
 
 
 
+[[step-3-edit-settings-for-snapshot-consistency-group]]
 == ステップ3：Snapshotコンシステンシグループの設定を編集する
 
 Snapshot整合性グループの自動削除に関する設定とリザーブ容量に関するアラートのしきい値を確認し、必要に応じて変更します。

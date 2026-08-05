@@ -16,6 +16,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[why-cant-i-log-in]]
 == ログインできない理由は何ですか?
 
 ログインする際にエラーが表示される場合は、次の問題がないか確認してください。
@@ -30,6 +31,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[what-do-i-need-to-know-before-adding-a-directory-server]]
 == ディレクトリ サーバを追加するときは、どのような点に注意する必要がありますか?
 
 アクセス管理でディレクトリ サーバを追加する際は、一定の要件を満たしている必要があります。
@@ -41,6 +43,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[what-do-i-need-to-know-about-mapping-to-storage-array-roles]]
 == ストレージ アレイのロールをマッピングするときは、どのような点に注意する必要がありますか?
 
 グループをロールにマッピングする際は、次のガイドラインに注意してください。
@@ -66,6 +69,7 @@ LDAP（Lightweight Directory Access Protocol）サーバとディレクトリ �
 
 
 
+[[saml]]
 === SAML
 
 ストレージ アレイに搭載されたSecurity Assertion Markup Language（SAML）機能を使用する場合は、次のことを確認してください。
@@ -83,12 +87,14 @@ LDAP（Lightweight Directory Access Protocol）サーバとディレクトリ �
 
 
 
+[[what-do-i-need-to-know-before-configuring-and-enabling-saml]]
 == SAMLを設定および有効にするときは、どのような点に注意する必要がありますか?
 
 認証のためにSecurity Assertion Markup Language（SAML）の機能を設定して有効にする前に、次の要件を満たしていることを確認し、SAMLの制限事項を理解しておきます。
 
 
 
+[[requirements]]
 === 要件
 
 作業を開始する前に、次の点を確認します。
@@ -103,6 +109,7 @@ LDAP（Lightweight Directory Access Protocol）サーバとディレクトリ �
 
 
 
+[[restrictions]]
 === 制限事項
 
 上記の要件に加えて、次の制限事項を理解しておきます。
@@ -124,6 +131,7 @@ LDAP（Lightweight Directory Access Protocol）サーバとディレクトリ �
 
 
 
+[[what-are-the-local-users]]
 == ローカル ユーザとは何ですか?
 
 ローカル ユーザは、システムに事前に定義されたユーザで、特定の権限が含まれています。

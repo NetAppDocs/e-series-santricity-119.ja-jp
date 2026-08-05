@@ -16,18 +16,44 @@ SANtricity System Manager 11.9の新機能を次の表で説明します。
 
 
 
+[[new-features-in-version-11-90r6]]
+== Version 11.90R6の新機能
+
+[cols="35h,~"]
+|===
+| 新機能 | 概要 
+
+
+ a| 
+IOM/DCMファームウェアバージョンのサポートを更新しました
+ a| 
+以下のIOM/DCMモデルで、新しいIOM/DCMファームウェアバージョンがサポートされるようになりました：
+
+* IOM12A - v0412
+* IOM12B - v0212
+* IOM12C - v0112
+* IOM12G - v0212
+* DCM3 - v01.12.09.02
+
+
+|===
+
+
+[[new-features-in-version-11-90r5]]
 == Version 11.90R5の新機能
 
 このバージョンには欠陥の修正のみが含まれ、新しい機能は含まれていません。このリリースの変更点の詳細については、Eシリーズ SANtricity OS 11.90R5 READMEを参照してください。
 
 
 
+[[new-features-in-version-11-90r4]]
 == Version 11.90R4の新機能
 
 このバージョンにはマイナーな変更のみが含まれており、新しい機能は含まれていません。このリリースの変更点の詳細については、Eシリーズ SANtricity OS 11.90R4 READMEを参照してください。
 
 
 
+[[new-features-in-version-11-90r3]]
 == Version 11.90R3の新機能
 
 [cols="35h,~"]
@@ -43,12 +69,14 @@ IOM12CおよびDCM3のSANtricity OSサポート
 |===
 
 
+[[new-features-in-version-11-90r2]]
 == Version 11.90R2の新機能
 
 このバージョンには軽微な変更のみが含まれており、新機能は追加されていません。このリリースの変更点の詳細については、 https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464["Eシリーズ 11.90 リリースノート"^]を参照してください。
 
 
 
+[[new-features-in-version-11-90r1]]
 == Version 11.90R1の新機能
 
 [cols="35h,~"]
@@ -71,6 +99,7 @@ E4000コントローラは12Gb SASホスト インターフェイス カード�
 |===
 
 
+[[new-features-in-version-11-90]]
 == バージョン11.90の新機能
 
 [cols="35h,~"]

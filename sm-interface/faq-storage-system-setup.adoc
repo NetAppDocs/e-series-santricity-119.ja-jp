@@ -16,6 +16,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[what-if-i-dont-see-all-of-my-hardware-components]]
 == 一部のハードウェア コンポーネントが表示されない場合はどうすればよいですか?
 
 [ハードウェアの確認]ダイアログ ボックスにすべてのハードウェア コンポーネントが表示されない場合は、ドライブ シェルフが正しく接続されていないか、ストレージ アレイに互換性のないシェルフが取り付けられている可能性があります。
@@ -24,6 +25,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[what-if-i-dont-see-all-of-my-hosts]]
 == すべてのホストが表示されない場合はどうすればよいですか?
 
 接続されているホストが表示されない場合は、自動検出に失敗したか、ホストが正しく接続されていないか、または現在接続されているホストがありません。
@@ -36,6 +38,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[how-does-identifying-applications-help-me-manage-my-storage-array]]
 == アプリケーションを特定するとストレージ アレイの管理にどのように役立ちますか?
 
 アプリケーションを特定すると、SANtricity System Managerは、アプリケーションの種類に基づいてストレージを最適化するボリューム構成を自動的に推奨します。
@@ -44,6 +47,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[what-is-a-workload]]
 == ワークロードとは何ですか?
 
 ネットワーク内の一部のアプリケーション（SQL ServerやExchangeなど）には、アプリケーションのストレージを最適化するワークロードを定義できます。
@@ -54,6 +58,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[how-do-i-configure-the-delivery-method-for-autosupport]]
 == AutoSupportの配信方法を設定するにはどうすればよいですか？
 
 AutoSupport配信方法の設定タスクにアクセスするには、メニュー：Support[Support Center]に移動し、*AutoSupport*タブをクリックします。
@@ -62,6 +67,7 @@ AutoSupport配信方法の設定タスクにアクセスするには、メニュ
 
 
 
+[[how-do-i-know-if-i-should-accept-the-recommended-pool-configuration]]
 == 推奨されるプール構成を承認するかどうかを判断するにはどうすればよいですか?
 
 推奨されるプール構成を承認するかどうかは、いくつかの要因によって決まります。
@@ -77,6 +83,7 @@ AutoSupport配信方法の設定タスクにアクセスするには、メニュ
 
 
 
+[[santricity-system-manager-has-not-detected-any-hosts-what-do-i-do]]
 == SANtricity System Managerでホストが検出されませんでした。どうすればよいですか。
 
 接続されているホストが表示されない場合は、自動検出に失敗したか、ホストが正しく接続されていないか、または現在接続されているホストがありません。

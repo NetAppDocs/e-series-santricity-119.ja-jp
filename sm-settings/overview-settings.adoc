@@ -16,6 +16,7 @@ summary: System Managerでは、一般的なアレイ設定やアドオン機能
 
 
 
+[[what-settings-can-i-configure]]
 == 何を設定できますか?
 
 アレイ設定には以下のものがあります。
@@ -28,6 +29,7 @@ summary: System Managerでは、一般的なアレイ設定やアドオン機能
 
 
 
+[[related-tasks]]
 == 関連タスク
 
 システム設定に関連するタスクの詳細については、以下を参照してください。

@@ -15,6 +15,7 @@ summary: 以前のバージョンのドキュメント
 
 
 
+[[hardware-documentation-for-earlier-releases]]
 == 以前のリリースのハードウェア ドキュメント
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2484026["E2712、E2724、E5612、E5624コントローラドライブトレイ、およびDE1600、DE5600拡張ドライブトレイを取り付けます"^]
@@ -30,10 +31,12 @@ summary: 以前のバージョンのドキュメント
 
 
 
+[[software-documentation-for-earlier-releases]]
 == 以前のリリースのソフトウェア ドキュメント
 
 
 
+[[santricity-release-11-8]]
 === SANtricityリリース11.8
 
 * https://docs.netapp.com/us-en/e-series-santricity-118/index.html["System Managerヘルプ"^]
@@ -42,6 +45,7 @@ summary: 以前のバージョンのドキュメント
 
 
 
+[[santricity-release-11-7]]
 === SANtricityリリース11.7
 
 * https://docs.netapp.com/us-en/e-series-santricity-117/index.html["System Managerヘルプ"^]
@@ -50,6 +54,7 @@ summary: 以前のバージョンのドキュメント
 
 
 
+[[santricity-release-11-6]]
 === SANtricityリリース11.6
 
 * https://docs.netapp.com/us-en/e-series-santricity-116/index.html["System Managerヘルプ"^]
@@ -58,6 +63,7 @@ summary: 以前のバージョンのドキュメント
 
 
 
+[[santricity-release-11-5]]
 === SANtricityリリース11.5
 
 * https://docs.netapp.com/us-en/e-series-santricity-115/index.html["System Managerヘルプ"^]
@@ -65,6 +71,7 @@ summary: 以前のバージョンのドキュメント
 
 
 
+[[santricity-release-11-4]]
 === SANtricityリリース11.4
 
 * https://mysupport.netapp.com/ecm/ecm_get_file/ECMLP2862590["Array Management Window（E2700、E5600/EF560）ヘルプ"^]

@@ -15,6 +15,7 @@ SANtricity System Managerは、単一のビューでストレージアレイを�
 
 
 
+[[home-page]]
 == [ホーム]ページ
 
 [ホーム]ページでは、ダッシュボード ビューでストレージ アレイの日常的な管理を行えます。System Managerにログインすると、[ホーム]ページが最初の画面として表示されます。
@@ -55,6 +56,7 @@ SANtricity System Managerは、単一のビューでストレージアレイを�
 |===
 
 
+[[interface-settings]]
 == 画面設定
 
 メイン画面から表示設定やその他の設定を変更できます。
@@ -86,6 +88,7 @@ SANtricity System Managerは、単一のビューでストレージアレイを�
 |===
 
 
+[[user-logins-and-passwords]]
 == ユーザ ログインとパスワード
 
 システムに現在ログインしているユーザが画面右上に表示されます。

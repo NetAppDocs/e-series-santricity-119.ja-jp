@@ -52,6 +52,7 @@ summary: アクセス管理は、SANtricity System Managerでユーザ認証を�
 
 
 
+[[tasks-available-in-system-manager]]
 == System Managerで利用可能なタスク
 
 タスクへのアクセスは、ユーザに割り当てられたロールによって決まります。ロールには以下のものが含まれます：
@@ -66,6 +67,7 @@ summary: アクセス管理は、SANtricity System Managerでユーザ認証を�
 
 
 
+[[limitations-in-unified-manager-and-storage-manager]]
 == Unified ManagerとStorage Managerの制限事項
 
 ストレージ アレイにSAMLが設定されている場合、ユーザはそのアレイのストレージをUnified Managerや従来のStorage Managerのインターフェイスから検出または管理できません。

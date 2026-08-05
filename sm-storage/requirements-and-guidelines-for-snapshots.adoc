@@ -15,6 +15,7 @@ Snapshotを作成して使用する場合は、以下の要件およびガイド
 
 
 
+[[snapshot-images-and-snapshot-groups]]
 == SnapshotイメージとSnapshotグループ
 
 * 各Snapshotイメージは1つのSnapshotグループに関連付けられます。
@@ -29,6 +30,7 @@ Snapshotを作成して使用する場合は、以下の要件およびガイド
 
 
 
+[[snapshot-consistency-group]]
 == Snapshot整合性グループ
 
 * Snapshot整合性グループには、グループのメンバーであるボリュームごとにSnapshotグループが1つ含まれています。
@@ -39,6 +41,7 @@ Snapshotを作成して使用する場合は、以下の要件およびガイド
 
 
 
+[[base-volume]]
 == ベース ボリューム
 
 * SnapshotボリュームのData Assurance（DA）とセキュリティの設定は、関連付けられているベース ボリュームと同じである必要があります。
@@ -49,6 +52,7 @@ Snapshotを作成して使用する場合は、以下の要件およびガイド
 
 
 
+[[reserved-capacity]]
 == リザーブ容量
 
 * リザーブ容量は1つのベース ボリュームのみに関連付けられます。
@@ -58,6 +62,7 @@ Snapshotを作成して使用する場合は、以下の要件およびガイド
 
 
 
+[[pending-snapshot-images]]
 == 保留中のSnapshotイメージ
 
 次の条件に該当する場合は、Snapshotイメージの作成が保留状態になることがあります。
@@ -68,6 +73,7 @@ Snapshotを作成して使用する場合は、以下の要件およびガイド
 
 
 
+[[maximum-number-of-snapshot-images]]
 == Snapshotイメージの最大数
 
 * あるボリュームがSnapshot整合性グループのメンバーである場合、System Managerはそのメンバー ボリューム用のSnapshotグループを作成します。このSnapshotグループは、ベース ボリュームあたりのSnapshotグループの許容最大数にカウントされます。
@@ -81,12 +87,14 @@ Snapshotを作成して使用する場合は、以下の要件およびガイド
 
 
 
+[[auto-deletion]]
 == 自動削除
 
 SnapshotグループまたはSnapshot整合性グループで自動削除が有効になっている場合、グループに新しいSnapshotイメージが作成されると、最も古いSnapshotイメージがSystem Managerによって削除されます。
 
 
 
+[[rollback-operation]]
 == ロールバック処理
 
 * ロールバック処理の進行中は、次の操作は実行できません。

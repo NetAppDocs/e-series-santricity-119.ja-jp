@@ -15,6 +15,7 @@ Snapshot機能は、copy-on-write（COW）テクノロジを使用してSnapshot
 
 
 
+[[how-snapshot-images-are-used]]
 == Snapshotイメージの使用方法
 
 Snapshotイメージは、特定の時点でキャプチャされた、ボリュームの内容の論理的な読み取り専用コピーです。Snapshotはデータ損失からの保護に使用できます。
@@ -23,6 +24,7 @@ Snapshotイメージはテスト環境でも役立ちます。データの仮想
 
 
 
+[[snapshot-creation]]
 == Snapshotの作成
 
 Snapshotが作成される際、Snapshot機能はイメージ データを次のように格納します。
@@ -42,6 +44,7 @@ image::../media/sam1130-dwg-snapshots-cow-overview.gif[スナップショット�
 
 
 
+[[snapshot-restoration]]
 == Snapshotのリストア
 
 ベース ボリュームにデータをリストアするには、SnapshotボリュームまたはSnapshotイメージを使用できます。

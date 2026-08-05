@@ -16,6 +16,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[what-happens-when-i-use-an-isns-server-for-registration]]
 == iSNSサーバを登録に使用するとどうなりますか?
 
 Internet Storage Name Service（iSNS）サーバの情報を使用する場合は、iSNSサーバを照会してターゲット（コントローラ）から情報を読み出すようにホスト（イニシエータ）を設定できます。
@@ -24,6 +25,7 @@ Internet Storage Name Service（iSNS）サーバの情報を使用する場合�
 
 
 
+[[which-registration-methods-are-automatically-supported-for-iscsi]]
 == iSCSIではどの登録方法が自動的にサポートされますか?
 
 iSCSIの実装では、Internet Storage Name Service（iSNS）検出方式またはSend Targetsコマンドの使用がサポートされます。
@@ -34,6 +36,7 @@ iSNSを設定しない場合は、iSCSIホストがiSCSI検出セッション中
 
 
 
+[[how-do-i-interpret-iser-over-infiniband-statistics]]
 == iSER over InfiniBand統計には何が表示されますか?
 
 View iSER over InfiniBand Statistics ダイアログボックスには、ローカルターゲット（プロトコル）統計と iSER over InfiniBand（IB）インターフェイス統計が表示されます。すべての統計は読み取り専用であり、設定できません。
@@ -46,6 +49,7 @@ View iSER over InfiniBand Statistics ダイアログボックスには、ロー�
 
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband]]
 == iSER over InfiniBandを設定または診断するためにほかに必要な作業は何ですか?
 
 以下の表は、InfiniBand 上の iSER セッションを構成および管理するために使用できる SANtricity System Manager 機能を示しています。
@@ -87,6 +91,7 @@ iSER over InfiniBandの統計の表示
 |===
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi]]
 == iSCSIを設定または診断するためにほかに必要な作業は何ですか?
 
 iSCSIセッションは、非同期ミラーリング関係にあるホストまたはリモートストレージアレイとの間で発生する可能性があります。以下の表に、これらのiSCSIセッションの設定と管理に使用できるSANtricity System Managerの機能を示します。
@@ -98,6 +103,7 @@ iSCSIを設定できるのは、ストレージ アレイがiSCSIをサポート
 ====
 
 
+[[configure-iscsi]]
 === iSCSIの設定
 
 [cols="1a,1a"]
@@ -142,6 +148,7 @@ iSCSIポートの設定
 |===
 
 
+[[diagnose-iscsi]]
 === iSCSIの診断
 
 [cols="1a,1a"]

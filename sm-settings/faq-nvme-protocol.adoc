@@ -16,6 +16,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[how-do-i-interpret-nvme-over-fabrics-statistics]]
 == NVMe over Fabrics統計には何が表示されますか?
 
 「NVMe over Fabrics 統計情報の表示」ダイアログボックスには、NVMeサブシステムとRDMAインターフェイスの統計情報が表示されます。すべての統計情報は読み取り専用であり、設定することはできません。
@@ -28,6 +29,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband]]
 == NVMe over InfiniBandを設定または診断するためにほかに必要な作業は何ですか?
 
 以下の表は、NVMe over InfiniBandセッションの構成と管理に使用できるSANtricityシステムマネージャの機能を示しています。
@@ -69,6 +71,7 @@ NVMe over InfiniBandの統計の表示
 |===
 
 
+[[what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce]]
 == NVMe over RoCEを設定または診断するためにほかに必要な作業は何ですか?
 
 NVMe over RoCEの設定と管理は、[ハードウェア]ページと[設定]ページで行うことができます。
@@ -110,6 +113,7 @@ NVMe over Fabricsの統計の表示
 |===
 
 
+[[why-are-there-two-ip-addresses-for-one-physical-port]]
 == 1つの物理ポートに2つのIPアドレスがあるのはなぜですか?
 
 EF600ストレージ アレイには、2つのHIC（外部用と内部用）を含めることができます。
@@ -120,6 +124,7 @@ EF600ストレージ アレイには、2つのHIC（外部用と内部用）を�
 
 
 
+[[why-are-there-two-sets-of-parameters-for-one-physical-port]]
 == 1つの物理ポートに2セットのパラメータがあるのはなぜですか?
 
 EF600ストレージ アレイには、2つのHIC（外部用と内部用）を含めることができます。

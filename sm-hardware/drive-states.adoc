@@ -15,6 +15,7 @@ SANtricity System Managerは、ドライブのさまざまな状態を報告し�
 
 
 
+[[accessibility-states]]
 == アクセスの状態
 
 [cols="25h,~"]
@@ -63,6 +64,7 @@ SANtricity System Managerは、ドライブのさまざまな状態を報告し�
 |===
 
 
+[[role-states]]
 == ロールの状態
 
 [cols="25h,~"]
@@ -99,6 +101,7 @@ SANtricity System Managerは、ドライブのさまざまな状態を報告し�
 |===
 
 
+[[availability-states]]
 == 可用性の状態
 
 [cols="25h,~"]

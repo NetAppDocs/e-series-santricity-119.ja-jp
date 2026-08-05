@@ -16,6 +16,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[why-cant-i-log-in]]
 == ログインできない理由は何ですか?
 
 SANtricity System Managerへのログイン時にエラーが発生した場合は、考えられる原因を確認してください。
@@ -39,6 +40,7 @@ System Managerへのログインエラーは、以下のいずれかの理由で
 
 
 
+[[what-do-i-need-to-know-before-adding-a-directory-server]]
 == ディレクトリ サーバを追加するときは、どのような点に注意する必要がありますか?
 
 アクセス管理でディレクトリ サーバを追加する前に、次の要件を満たしていることを確認する必要があります。
@@ -50,6 +52,7 @@ System Managerへのログインエラーは、以下のいずれかの理由で
 
 
 
+[[what-do-i-need-to-know-about-mapping-to-storage-array-roles]]
 == ストレージ アレイのロールをマッピングするときは、どのような点に注意する必要がありますか?
 
 グループをロールにマッピングする前に、次のガイドラインを確認してください。
@@ -64,6 +67,7 @@ System Managerへのログインエラーは、以下のいずれかの理由で
 
 
 
+[[directory-services]]
 === ディレクトリ サービス
 
 LDAP（Lightweight Directory Access Protocol）サーバとディレクトリ サービスを使用する場合は、次の点を確認してください。
@@ -80,6 +84,7 @@ LDAP（Lightweight Directory Access Protocol）サーバとディレクトリ �
 
 
 
+[[saml]]
 === SAML
 
 ストレージ アレイに搭載されたSecurity Assertion Markup Language（SAML）機能を使用する場合は、次のことを確認してください。
@@ -97,12 +102,14 @@ LDAP（Lightweight Directory Access Protocol）サーバとディレクトリ �
 
 
 
+[[which-external-management-tools-may-be-affected-by-this-change]]
 == この変更の影響を受ける外部管理ツールはどれですか?
 
 SANtricity System Managerで管理インターフェイスの切り替えや認証方法としてのSAMLの使用など、特定の変更を行うと、一部の外部ツールや機能の使用が制限される場合があります。
 
 
 
+[[management-interface]]
 === 管理インターフェイス
 
 レガシー管理インターフェイス（SYMbol）と直接通信するツール（SANtricity SMI-SプロバイダーやOnCommand Insight（OCI）など）は、レガシー管理インターフェイスの設定が有効になっていないと動作しません。さらに、この設定が無効になっている場合、レガシーCLIコマンドを使用したり、ミラーリング操作を実行したりすることはできません。
@@ -111,6 +118,7 @@ SANtricity System Managerで管理インターフェイスの切り替えや認�
 
 
 
+[[saml-authentication]]
 === SAML認証
 
 SAMLが有効な場合、次のクライアントはストレージ アレイのサービスとリソースにアクセスできません。
@@ -127,12 +135,14 @@ SAMLが有効な場合、次のクライアントはストレージ アレイの
 
 
 
+[[what-do-i-need-to-know-before-configuring-and-enabling-saml]]
 == SAMLを設定および有効にするときは、どのような点に注意する必要がありますか?
 
 認証のためにSecurity Assertion Markup Language（SAML）の機能を設定して有効にする前に、次の要件を満たしていることを確認し、SAMLの制限事項を理解しておきます。
 
 
 
+[[requirements]]
 === 要件
 
 作業を開始する前に、次の点を確認します。
@@ -147,6 +157,7 @@ SAMLが有効な場合、次のクライアントはストレージ アレイの
 
 
 
+[[restrictions]]
 === 制限事項
 
 上記の要件に加えて、次の制限事項を理解しておきます。
@@ -168,6 +179,7 @@ SAMLが有効な場合、次のクライアントはストレージ アレイの
 
 
 
+[[what-types-of-events-are-recorded-in-the-audit-log]]
 == 監査ログにはどのタイプのイベントが記録されますか?
 
 監査ログには、変更イベント、または変更イベントと読み取り専用イベントの両方を記録できます。
@@ -180,6 +192,7 @@ SAMLが有効な場合、次のクライアントはストレージ アレイの
 
 
 
+[[what-do-i-need-to-know-before-configuring-a-syslog-server]]
 == syslog サーバを設定するときは、どのような点に注意する必要がありますか?
 
 外部syslogサーバに監査ログをアーカイブできます。
@@ -195,6 +208,7 @@ syslogサーバを設定する際は、次のガイドラインに注意して�
 
 
 
+[[the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do]]
 == syslogサーバが監査ログを受信しなくなりました。どうすればよいですか?
 
 syslogサーバにTLSプロトコルを設定している場合、何らかの理由で証明書が無効になるとサーバはメッセージを受信できなくなります。無効な証明書に関するエラー メッセージが監査ログに記録されます。

@@ -15,6 +15,7 @@ summary: ストレージ アレイに関連するボリュームの用語を次�
 
 
 
+[[all-volume-types]]
 == すべてのボリューム タイプ
 
 [cols="25h,~"]
@@ -215,6 +216,7 @@ Volume
 |===
 
 
+[[specific-to-thin-volumes]]
 == シン ボリュームに固有の用語
 
 [NOTE]

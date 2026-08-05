@@ -16,6 +16,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 
 
 
+[[how-does-asynchronous-mirroring-differ-from-synchronous-mirroring]]
 == 非同期ミラーリングと同期ミラーリングの違いは何ですか?
 
 非同期ミラーリング機能が同期ミラーリング機能と本質的に違う点は、非同期ミラーリングは特定の時点におけるソース ボリュームの状態をキャプチャし、前回のイメージ キャプチャ以降に変更されたデータのみをコピーする点です。
@@ -112,6 +113,7 @@ summary: 質問に対する簡単な回答をお探しの場合は、このFAQ�
 |===
 
 
+[[why-cant-i-access-my-chosen-mirroring-feature]]
 == 選択したミラーリング機能にアクセスできない場合、どのような理由が考えられますか?
 
 ミラーリングは、SANtricity Unified Managerインターフェイスで設定されます。
@@ -137,6 +139,7 @@ EF600/EF600CまたはEF300/EF300Cストレージアレイでは、同期ミラ�
 
 
 
+[[what-do-i-need-to-know-before-creating-a-mirror-consistency-group]]
 == ミラー整合性グループを作成するときは、どのような点に注意する必要がありますか?
 
 ミラー整合性グループを作成する際は、次のガイドラインに従ってください。
@@ -167,6 +170,7 @@ Unified Managerの以下の要件を満たしてください：
 
 
 
+[[asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair]]
 == 非同期ミラーリング - ミラー ペアを作成するときは、どのような点に注意する必要がありますか?
 
 ミラーペアは SANtricity Unified Manager インターフェイスで設定し、SANtricity System Manager でペアを管理します。
@@ -187,6 +191,7 @@ Unified Managerの以下の要件を満たしてください：
 
 
 
+[[what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume]]
 == ミラー ペア ボリュームでリザーブ容量を増やすときは、どのような点に注意する必要がありますか?
 
 一般的には、ミラー ペアのリザーブ容量がフルに近付いているという警告が表示されたときに、リザーブ容量を拡張します。リザーブ容量は8GiB単位でのみ拡張できます。
@@ -208,6 +213,7 @@ Unified Managerの以下の要件を満たしてください：
 
 
 
+[[why-cant-i-increase-reserved-capacity-with-my-requested-amount]]
 == リザーブ容量を要求した量で増やせない場合、どのような理由が考えられますか?
 
 リザーブ容量は4GiB単位でのみ拡張できます。
@@ -226,6 +232,7 @@ Unified Managerの以下の要件を満たしてください：
 
 
 
+[[why-would-i-change-this-percentage]]
 == この割合を変更するのはどのような場合ですか?
 
 リザーブ容量は通常、Snapshot処理の場合はベース ボリュームの40%、非同期ミラーリング処理の場合はベース ボリュームの20%です。
@@ -240,6 +247,7 @@ Unified Managerの以下の要件を満たしてください：
 
 
 
+[[why-do-i-see-more-than-one-reserved-capacity-candidate]]
 == リザーブ容量の候補が複数表示されるのはなぜですか?
 
 プールまたはボリューム グループ内にストレージ オブジェクトに対して選択した容量の割合（%）を満たす複数のボリュームがある場合は、複数の候補が表示されます。
@@ -248,6 +256,7 @@ Unified Managerの以下の要件を満たしてください：
 
 
 
+[[why-do-i-see-not-available-values-displayed-in-the-table]]
 == 表に「該当なし」と表示される場合、どのような理由が考えられますか?
 
 この表は、リモート ストレージ アレイ上のデータが表示できない場合に「利用不可」という値を表示します。
@@ -256,6 +265,7 @@ Unified Managerの以下の要件を満たしてください：
 
 
 
+[[why-dont-i-see-all-of-my-pools-and-volume-groups]]
 == プールおよびボリューム グループが一部表示されないのはなぜですか?
 
 非同期ミラー ペアのセカンダリ ボリュームを作成する際には、その非同期ミラー ペアに使用できるすべてのプールとボリューム グループのリストが表示されます。使用できないプールまたはボリューム グループはリストに表示されません。
@@ -269,6 +279,7 @@ Unified Managerの以下の要件を満たしてください：
 
 
 
+[[asynchronous-mirroring-why-dont-i-see-all-my-volumes]]
 == 非同期ミラーリング - ボリュームが一部表示されないのはなぜですか?
 
 ミラー ペアのプライマリ ボリュームを選択すると、対応するすべてのボリュームのリストが表示されます。
@@ -285,6 +296,7 @@ NOTE: EF600およびEF300のコントローラでは、非同期ミラー ペア
 
 
 
+[[asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array]]
 == 非同期ミラーリング - リモート ストレージ アレイ上のボリュームが一部表示されないのはなぜですか?
 
 リモート ストレージ アレイ上のセカンダリ ボリュームを選択すると、そのミラー ペアに対応するすべてのボリュームのリストが表示されます。
@@ -304,6 +316,7 @@ NOTE: EF600およびEF300のコントローラでは、非同期ミラー ペア
 
 
 
+[[why-would-i-update-my-remote-storage-arrays-ip-address]]
 == リモート ストレージ アレイのIPアドレスを更新するのはどのような場合ですか?
 
 リモート ストレージ アレイのIPアドレスを更新するのは、iSCSIポートのIPアドレスが変わったために、ローカル ストレージ アレイがリモート ストレージ アレイと通信できない場合です。
