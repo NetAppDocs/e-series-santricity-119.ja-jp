@@ -2,7 +2,7 @@
 permalink: sm-storage/actions-you-can-perform-on-volumes.html 
 sidebar: sidebar 
 keywords: SANtricity, System Manager, E-Series, volumes 
-summary: ボリュームに対しては、容量の追加、削除、コピー、初期化、再配置、所有権の変更、キャッシュ設定の変更、メディア スキャン設定の変更など、さまざまな処理を実行できます。 
+summary: ボリュームに対しては、容量の拡張、削除、コピー、初期化、再配布、所有権の変更、キャッシュ設定の変更、メディアスキャン設定の変更など、さまざまな操作を実行できます。 
 ---
 = SANtricity System Managerでボリュームに対して実行できるアクション
 :allow-uri-read: 

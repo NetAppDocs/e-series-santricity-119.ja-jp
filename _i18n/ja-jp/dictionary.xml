@@ -5908,7 +5908,6 @@
   <block id="945ae7820c24188a29edbd29e427962f" category="paragraph">容量の拡張（容量の追加）</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="paragraph">容量の縮小</block>
   <block id="dca785ddf6462cb2ce8d0332432fef85" category="paragraph">ドライブ タイプ（HDD、SSD）の混在は、プールでもボリューム グループでもサポートされていません。</block>
-  <block id="28777dded0f4b7a62c3138973e35582c" category="summary">「容量削減」オプションを使用すると、スナップショットグループ、スナップショットボリューム、および整合性グループメンバーボリュームといったストレージオブジェクトの予約容量を削減できます。予約容量を減らすことができるのは、増やすために使用した容量分のみです。</block>
   <block id="37e9db9b7a1415532978e5e59b0e1792" category="doc">SANtricity System Manager で予約済み容量を削減</block>
   <block id="115acc53492ff3d71c7e0717c01220a6" category="paragraph">ストレージ オブジェクトのリザーブ容量を削減するには、[容量の削減]オプションを使用します。対象となるストレージ オブジェクトは、Snapshotグループ、Snapshotボリューム、および整合性グループのメンバー ボリュームです。リザーブ容量は、増やしたときの分量ずつしか削除できません。</block>
   <block id="1d76cca7e5eb092d02723fdb9a2c1272" category="list-text">ストレージ オブジェクトに複数のリザーブ容量ボリュームが含まれている必要があります。</block>
@@ -9049,4 +9048,9 @@
   <block id="24c9cd56861c16e2290412c4fe4d5a8f" category="list-text">IOM12C - v0112</block>
   <block id="818d5ca9647738ea76069fc99cf59499" category="list-text">IOM12G - v0212</block>
   <block id="9133a8b23ddd677242ee6747a18b0e24" category="list-text">DCM3 - v01.12.09.02</block>
+  <block id="fb2a0888f91c24b63218fe88807bbba3" category="summary">コントローラーは、オンライン、オフライン、サービスモードの3つの異なる状態に設定できます。</block>
+  <block id="49390b5788f909c095a9221fc5028cc6" category="summary">ボリュームに対しては、容量の拡張、削除、コピー、初期化、再配布、所有権の変更、キャッシュ設定の変更、メディアスキャン設定の変更など、さまざまな操作を実行できます。</block>
+  <block id="5fde626ba0e89d16805ea6acf1d0ad24" category="summary">スナップショットグループ、スナップショットボリューム、および整合性グループメンバーボリュームの予約容量を減らすには、「容量の削減」オプションを使用します。予約容量を減らすことができるのは、増やすために使用した容量分のみです。</block>
+  <block id="9587f27e2d9da9b950f8b3a7d00fbad9" category="section-title">Version 11.90R7の新機能</block>
+  <block id="7e2382649b16a571eb0ec2a8e1b78824" category="paragraph">このバージョンには欠陥の修正のみが含まれ、新しい機能は含まれていません。このリリースの変更点の詳細については、Eシリーズ SANtricity OS 11.90R7 READMEを参照してください。</block>
 </blocks>

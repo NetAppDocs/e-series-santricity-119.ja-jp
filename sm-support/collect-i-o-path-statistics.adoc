@@ -1,7 +1,7 @@
 ---
 permalink: sm-support/collect-i-o-path-statistics.html 
 sidebar: sidebar 
-keywords: SANtricity, System Manager, E-Series, collect, i/o path, statistics 
+keywords: SANtricity, System Manager, E-Series, collect, i o path, statistics 
 summary: I/Oパス統計のファイルを保存し、分析用にテクニカル サポートに送信できます。 
 ---
 = SANtricity System Managerで入出力パス統計情報を収集する
